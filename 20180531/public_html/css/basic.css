@@ -1,0 +1,10 @@
+div#page {
+	width: 775px;
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: left;
+}
+div#container {
+	padding: 5px;
+}
+

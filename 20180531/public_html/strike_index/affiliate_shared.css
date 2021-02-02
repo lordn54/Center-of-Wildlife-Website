@@ -1,0 +1,1580 @@
+/* -------------------------------------------------------------- 
+   reset.css - Resets default browser CSS. Source Eric Meyer
+-------------------------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, textarea,
+table, caption, tbody, tfoot, thead, tr, th, td 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+u {text-decoration: none}
+
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+
+/* Miscellaneous conveniences: */
+form label { cursor: pointer; }
+fieldset, img, a img, abbr, acronym { border: none; text-decoration: none;}
+input, select, textarea { font-size: 100%; font-family: inherit; }
+
+ol, ul { list-style: none; } 
+
+#logoprint, #logoprint img {display: none}
+
+
+
+
+
+
+/*()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()() 
+LAYOUT
+These styles are for the basic structure of typical page interface for the University site.
+Variations in specific campus imagery and menus are made in the campus specific css files
+-------------------------------------------------------------------------- */
+html, body { height: 100%; } /*Required for footer stick method http://www.cssstickyfooter.com/using-sticky-footer-code.html*/
+
+/*For Opera in Footer Stick method*/
+body:before {	content:"";  height:100%; float:left; width:0; margin-top:-32767px; }
+
+body { background: #fff url(http://css.erau.edu/iface/clouds.jpg) center top no-repeat; text-align: center; }
+
+
+/*nonFooter is the container of content which contains everything in the body except footer. Do not change!!!*/
+#nonFooter { min-height: 100%; width: 960px; margin: 0 auto; text-align: left;  position: relative;}
+
+* html #nonFooter { /*stretch to full height in IE6 - (new footerstick)*/  height: 100%; } 
+
+/* #content contains the two main divs of each page: contentMain floated right and #nav floated left. Large bottom padding is to allow room for footer positioned with netative margin. Reference: http://www.themaninblue.com/writing/perspective/2005/08/29/*/
+
+#content {overflow:auto; position: relative; padding-bottom: 95px; width: 960px; text-align: left; font-size: inherit;  }  
+
+/* repeating background image for faux columns. Contained in #nonfooter and given transparency to allow clouds to show through*/
+#columns { 
+position: absolute; top: auto; left: 0; bottom: 0; margin: 0; height: 20000px; width: 960px; background: url(http://css.erau.edu/iface/fauxcol.png) center top repeat-y; }
+
+
+/*FOOTER is positioned at the bottom of the screen window or at the end of content by footer stick method. Footer content styles are in typography section*/
+#footer { position: relative; height: 85px; width: 960px;  margin: -85px auto 0 auto; background: #e3e9f4 url(images/footer-bg.gif) repeat-x top;  text-align: center; clear:both; }
+
+
+
+
+
+/*A variation of above for use when a background is needed for a separate column div. e.g. Board of Trustees pages.*/
+#columns-aside { position: absolute; top: auto; left: 0; bottom: 0; margin: 0; height: 10000px; width: 960px; background: url(iface/fauxcol-aside.jpg) center top repeat-y; filter:alpha(opacity=25); -moz-opacity:.25;opacity:.25;}
+
+
+
+.clearer { clear: both; display: block; height: 1px; margin-bottom: -1px; font-size: 1px; line-height: 1px; }
+
+
+
+
+
+/* HEADER */
+#header_extender { position: absolute; top: 0; left: 0; width: 100%; height: 188px; background: url(images/header_extender2.png) center top repeat-x; /*filter:alpha(opacity=30); -moz-opacity:.30;opacity:.30;*/ }
+/*Tiles the header banner horizontally to the edge of the window*/
+
+
+#affilliate-erau-banner { background: #fff url(images/affiliate_erau_header_nobars.jpg) center top no-repeat; height: 56px; width: 960px; margin: 0; padding: 0; position: relative; border-top: 2px solid #f1b228; border-bottom: 2px solid #f1b228; }
+
+/* HEADER Logo - Embry-Riddle logo linked to the index page of the University site. The ERAU logo always links to the university home page.*/
+#logo-homelink { position: absolute; right: 50px; top: 13px; margin: 0; padding: 0; }
+#logo-homelink img { border: 0; margin: 0; padding: 0; }
+#logo-homelink a { display: block; border: 0; text-decoration: none; }
+#logo-homelink a span { display: block; padding-top: 6px; display: none; }
+#logo-homelink a:hover span { display: block;}
+
+
+
+
+
+/*Contents of header which follow are absolutely positioned inside this div.*/
+#affilliate_header { background: #fff; height: 100px; width: 960px; margin: 0; padding: 0; position: relative;}
+
+
+
+
+/* HEADER Global Nav. for People search, ERNIE   Etc. */
+/*
+#globalnav  * { margin: 0; padding: 0; border: 0}
+#globalnav { position: absolute; top:3px; right: 320px;}
+#globalnav ul { list-style-type: none; }
+#globalnav ul li { float: left;  display: inline; text-align: center;  }
+#globalnav ul li a { display: block; padding:3px 24px; color: #c3cfe6; font: bold .75em Arial, Helvetica, sans-serif;  letter-spacing: 1px; }
+#globalnav ul li a:hover { background: #7c8db8; color: #fff; }
+
+#globalnav ul li#campusname { position: relative; right: 95px; }
+*/
+
+
+
+/* HEADER Search Form styling is in the forms section*/
+
+
+
+
+
+#site-name { position: absolute; left: 60px; top: 14px; margin: 0; padding: 0; }
+#site-name img { border: 0; display: block; margin: 0; padding: 0;}
+#site-name a { display: block; border: 0; text-decoration: none; }
+#site-name a span { display: block; padding-top: 6px; display: none;}
+#site-name a:hover span { display: block;}
+
+
+
+/*Slogan is "Real Education. Above All. Used on Universit pages.*/
+/*
+#slogan { position: absolute; left: 680px; top: 37px; margin: 0; padding: 0; }
+#slogan img { border: 0; display: block; filter:alpha(opacity=65); -moz-opacity:.65;opacity:.65;}
+*/
+
+/*TopNav Horizontal menu in the yellow bar of header. Contains links to major sections of the site. Navigation for each section is in nav section*/
+#topNav * { margin: 0; padding: 0;}
+#topNav { display: block; height: 28px; width: 960px; text-align: center; background: url(http://css.erau.edu/iface/topnav-bg.png) repeat-x ; position: relative; z-index: 2; overflow: hidden; }
+#topNav ul {list-style-type: none;  padding: 0; margin: 0 auto; }
+#topNav li {list-style-image: none; display: inline; }
+#topNav a { padding: 9px 20px 7px; text-decoration: none; border:0; font: bold 12px/27px Arial, Helvetica, sans-serif; color: #3a5079; text-align: center;}
+#topNav a:hover { background: gold url(http://css.erau.edu/iface/topnav_bghover.jpg) repeat-x top; color: #3a5079;}
+
+/*All these classes are added dynamically by Rhythmyx depending on the link selected by the user. So all must have the styling for current page.*/
+#topNav a.SELF,
+#topNav a.ANCESTOR,
+#topNav a.PARENT,
+#topNav a.current { background: #fbe197 url(iface/topnav_bghover.jpg) repeat-x top; color: #3a5079;
+/*background: #FFE799; color: #000;*/ } 
+
+
+
+
+
+
+
+/*ContentMain contains all content other than #nav using various div configurations #page_copy and columns.*/
+#contentMain { float: right; width: 720px; padding: 0 0 0 0; margin: 0 0 0 0; display: inline; overflow: hidden; }
+
+/*#page_copy is contained in #contentMain. It exists to provide consistent left space for negative margins for headings in ie6.*/
+#page_copy { width: 648px; float: right; padding-left: 70px; display: inline; }
+
+
+#page_copy_aside { width: 418px; padding: 0 20px 0 70px; float: left; display: inline;  }
+#aside { width: 192px; padding: 10px 10px; overflow: hidden;  float: right; display: inline; }
+
+/*Video is the default div id to contain flowplayer.*/
+#video { background: #000; width: 534px; height: 324px; display:block; float: left; margin: 0; padding: 0}
+
+
+/*When video is inline in page copy it needs some margin and a class of add_margin is added.*/
+#video.add_margin { margin: 15px 0 }
+
+/*Video is the default div id to contain flowplayer.
+When video is inline in page copy it needs some margin and a class of add_margin is added.*/
+#video.nofloat { float: none; }
+
+
+
+/*Secondary Content  contained in page_copy and floated right creating a right column as long as its content. Styles for content contained in .secondary_content div are in typography section.*/
+.secondary_content { clear:  both; float: right;  width: 200px; margin: 10px 0 10px 25px; padding: 0; display: inline; border-left: 1px solid #6f91d0; background: #fff; font-family: arial, helvetica, sans-serif;  overflow: hidden; }
+
+
+/*columns in page_copy. Two or three columns of text can be created in page_copy by assigning the these classes. These divs must be contained in page copy and used sparingly.*/
+div.col-3, div.col-2  { float: left; display: inline; width: 180px; margin: 20px 28px 0 0; overflow: visible; }
+div.col-2 { width: 280px; }
+
+
+
+
+
+/*Other #nav styles in nav section*/
+#u-nav, #nav  { width: 240px;  float: left; display: inline; background: url(http://css.erau.edu/iface/fauxcol.png) left top repeat-y; } 
+
+
+
+
+
+
+/*This section is for the iframe layout for external links in Rhythmyx. div#returnbar is the pagetop div over the iframe containing an external page.*/
+
+#iframe { display: block; width: 100%;  height: 100%; }
+#returnbar { width: auto; min-width: 760px; height: 30px; background: #3f61a1; margin: 0; padding: 8px 25px 0 25px; border-bottom: 2px solid  #000066; text-align: center;}
+#returnbar div {display: inline; color: #e3e9f4; height: 20px; font: normal .875em/1.2 arial, sans-serif;  width: auto; margin: 0; }
+#returnbar div * {white-space: nowrap; font-weight: normal; }
+#returnbar div a { font-weight: bold; color: #fff; }
+#returnbar div.now_viewing { display: block; width: 510px; margin: 0 auto; }
+#returnbar div.return {float: left; width: 250px; text-align: left;}
+#returnbar div.remove {float: right;  width: 170px; text-align: right; }
+#returnbar div.remove  img {margin: 0; padding: 0; border: 0; margin: 0 0 0 4px; display: inline; }
+
+#breadcrumbs {display: none}
+
+/*END LAYOUT*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()() 
+TYPOGRAPHY
+Basic styles for html elements, text sizing etc.
+-------------------------------------------------------------------------- */
+
+
+body { 
+  font-size: 100.1%; 
+  color: #222; 
+  font-family: Georgia, Palatino, Times, serif;}
+ 
+  
+
+
+/* Headings
+-------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6 {  
+  color: #111; 
+  font-family: "Book Antiqua", Palatino, "Times New Roman", serif;
+  letter-spacing: -.02em;
+  font-weight: bold; line-height: 1.1; }
+ 
+
+h1 { font-size: 2.0em; margin: 1em 0 .4em -40px; }
+
+h2 { font-size: 1.5em; margin: 1em 0 .4em -30px; }
+
+h3 { font-size: .9375em; margin: 1em 0 .3em -15px; }
+
+h4 { font-size: .875em; margin: 1em 0 0 0; }
+
+h5 { font-size: .875em; margin: 1em 0 .3em 0; font-weight: bold; }
+
+h6 { font-size: .875em; margin: 1em 0 .3em 0; font-weight: bold; }
+
+#aside h2, #aside h3, div.col-2 h2, div.col-2 h3, div.col-3 h2, div.col-3 h3 {margin-left: 0}
+
+
+
+/* HEADING RELATED */
+h1 span { font-size: .7em; color: #666; }
+
+h2.divider {clear: both; margin-top: 2em; padding-top: .5em; border-top: 1px solid #666;}
+
+
+h1.narrow { width: 440px; } /*class="narrow" is added to h1 headings when the secondary content contains an image with a reverse margin that would overlap a full length heading*/
+
+
+/*h1.kicker and h1.deck is for extra copy associated with h1 but not a subheading introducing a new section.
+p.h1-kicker { margin: 0 0 4px -16px; font-weight: bold; font-size: .8em; }
+p.h1-deck { margin: 3px 0 18px -16px; font-weight: bold; font-size: .9em; }*/
+
+/*Heading Exceptions for Spry Widgets*/
+div.TabbedPanelsContent h2 { margin: 0 0 3px 0 ; }
+div.TabbedPanelsContent h3 { margin: 15px 0 10px 0;}
+
+
+
+/* TEXT P AND VARIATIONS*/
+p { font-size: .875em; line-height: 1.4; margin: 0 0 .6em 0; padding: 0; }
+
+.footnote { font-size: .6875em; line-height: 1.4; margin: 12px 0 6px 0; padding: 0; clear: both}
+
+p.legal_notice { font: bold 70%/1.2 arial; padding: 20px 50px; border: 1px solid #ccc; margin-top: 30px; background: #fafafa;}
+
+/*p span { color: red}
+*/
+
+/* LINKS */
+a {text-decoration: none; border-bottom: 1px solid #ccc; }
+a:link { color:  #06389e; background-color: transparent; }
+a:visited { color: #06389e; background-color: transparent; }
+a:active { color: #06389e; background-color: transparent;  border-bottom: 1px solid #666; }
+a:hover	{ color: #06389e; background-color: transparent; border-bottom: 1px solid #666;}
+
+
+
+
+
+/*displays a application icons based on the file name extension.*/
+
+
+
+a[href$=".ppt"], a[href$=".pps"], a[href$=".pdf"], a[href$=".doc"], a[href$=".wav"], a[href$=".xml"] {
+ display: inline-block; 	 padding-left: 22px; }
+
+
+a[href$=".ppt"] {
+background: url(http://css.erau.edu/iface/powerpoint.gif) no-repeat left top; }
+
+a[href$=".pps"] {
+background: url(http://css.erau.edu/iface/powerpoint.gif) no-repeat left top; }
+
+a[href$=".pdf"] {
+background: url(http://css.erau.edu/iface/pdf.gif) no-repeat left top; }
+
+a[href$=".doc"] {
+background: url(http://css.erau.edu/iface/word.gif) no-repeat left top; }
+
+a[href$=".wav"] {
+background: url(http://css.erau.edu/iface/audio_icon.gif) no-repeat left top; }
+
+a[href$=".xml"] {
+background: url(http://css.erau.edu/iface/rssfeed.png) no-repeat left top; }
+
+
+
+
+
+
+
+
+/* LISTS */
+
+ul li { list-style: url(/iface/bullet.gif) outside; }
+ol li { list-style-image: none; list-style-type: decimal;}
+ul, ol, dl { margin: .8em 0; font-size: .875em; line-height: 1.3}
+
+
+ul ul, ol ol, dl dl { margin: .3em 0; font-size: 100%; line-height: 1.3}
+
+dt { margin-top: .6em; font-weight: bold;  line-height: 1.3; }
+dd { margin: 0 0 0 2em;  font-weight: normal; padding: 0; line-height: 1.3;}
+
+dl dl dl dt {font-style: italic; }
+dd ol { margin-top: 0;  }
+dd ol li { margin-bottom: 2px;  }
+
+
+ol { list-style-type: decimal;  list-style-image: none;}
+ol ol { list-style-type: lower-alpha;  list-style-image: none;}
+ol ol ol { list-style-type: lower-roman;  list-style-image: none;}
+
+li li, dd ul, dd ol, li p, div li, ul a, li a, table ul, dd address, dd p, dd dl, ul ol {font-size: 100%; }
+
+
+/*List Indents*/
+li { margin: .2em 0 .5em 1.5em;}
+li li {  margin: .2em 0 .5em 2.0em;}
+li li li {  margin: .2em 0 .5em 4em;}
+
+
+ul ul li {  list-style-type: circle; list-style-image: none; }
+ul ul ul li { list-style-type: square; list-style-image: none; }
+
+
+
+
+/*Styles for columns in content main*/
+
+div.col-3 h2 {  margin: 8px 0 8px 0px; }
+div.col-3 h3 {  margin: 8px 0 4px 0; }
+div.col-3 li {  margin: 5px 0 0 0;  list-style-image: none; list-style: none; font-size: .8125em; line-height: 1.2; }
+
+
+ul.departments li { margin: 0;  padding: .3em 0 0 .8em; font-size: 100%;}
+ul.departments a { font-size: .8125em;  line-height: .7em; }
+
+
+
+
+/*DL lists for Degrees*/ 
+
+dl.degree-list {  }
+dl.degree-list dt { margin-top: 20px; }
+dl.degree-list dt {border-bottom: 1px solid #ccc; padding: 0 0 6px 0; margin: 8px 0 5px 0;}
+dl.degree-list dd.degree-location { float: right;  width: 120px; margin: -6px 0 0 15px; padding: 0 0 0 0; border-left: 1px solid #ccc;}
+dl.degree-list dd.degree-location span { display: block; font: normal .6875em/1 arial, helvetica, sans-serif; padding: 3px 0 1px 6px; margin: 0 0 0 0; background: #ccc; color: #fff;}
+dl.degree-list dd.degree-location a { display: block; font: bold .8em/2.2 arial, helvetica, sans-serif; padding: 0 0 0 6px; margin: 0 0 0 0;}
+
+
+dl.course_description_list { }
+dl.course_description_list dt { }
+dl.course_description_list dd { }
+dl.course_description_list dd.prereq_coreq { font-style: italic; font-size: 90%; margin-left: 4em }
+
+
+
+
+
+
+
+
+ul.linklist { margin: 0; padding: 0; list-style-type: none; list-style: none; }
+ul.linklist li { list-style-type: none; list-style: none; margin: 0; list-style-image: none; }
+ul.linklist a { list-style-type: none; list-style: none; border: 0;  border-bottom: 1px solid #ccc;}
+ul.linklist a:hover { border-bottom: 1px solid #999;}
+ul.linklist p { padding: 2px;}
+
+#aside li {font: normal .8em/1 arial, sans-serif; padding: 2px 0;}
+#aside ul.linklist li { margin: 0; }
+
+dl.advisoryboard { width: 45%; float: left; margin-right: 5%; }
+dl.advisoryboard dd {  margin-left: 15px; }
+
+
+
+
+
+dl.gallery { margin: 0; padding: 0; /*border: 1px solid red*/ }
+dl.gallery dt { clear: both; display: block; margin-top: 30px; padding: 8px 0; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+
+dl.gallery dd { margin-top: 15px; background: #e3e9f4; padding: 0 20px 0 0; position: relative; display: block;  overflow: hidden; }
+dl.gallery dd img { float: left; margin: 0; padding: 0; margin-right: 15px; width: 300px;}
+dl.gallery dd p { padding-top: 10px; font-size: .9375em; line-height: 1.3; margin: 0; }
+dl.gallery dd:after { /* stretch to contain floats */ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+
+#sitemap { font-size: 100%; }
+#sitemap a { border: 0; color: #000;}
+#sitemap a:hover { border-bottom: 1px  solid #ccc; color: #06389e; font-weight: bold; }
+#sitemap h2 { margin: 15px 0 2px -20px;  }
+#sitemap h2 a { color: #06389e; }
+#sitemap ul { margin: 0; padding: 0;  }
+#sitemap ul ul { margin: 0 0 0 20px; padding: 0}
+
+#sitemap ul li {margin: 0; padding: 0; list-style-image: none; list-style: none; line-height: 1; padding-top: 6px;}
+#sitemap ul ul li { padding-top: 1px;}
+
+#sitemap ul li a {   }
+#sitemap ul ul li a {  font-size: 88%; color: #666; }
+
+
+
+/*List for Headline list with class of .headline-list with dates in spans*/
+ul.headline-list {  }
+ul.headline-list li { list-style-image: none; list-style: none; }
+ul.headline-list li span { display: block;  font: italic .8125em/1 arial, sans-serif; padding-top: 3px; letter-spacing: 1px; color: #5a5a5a}
+ul.headline-list li a { border: 0 }
+ul.headline-list li a:hover { border-bottom: 1px dotted #666 }
+
+
+
+
+
+
+
+/*Secondary Content Default styles*/
+.secondary_content * { margin: 0; padding: 0; font-size: 100%;}
+
+.secondary_content h2, 
+.secondary_content h3, 
+.secondary_content h4, 
+.secondary_content h5, 
+.secondary_content h6 { font-family: arial, helvetica, sans-serif; }
+
+.secondary_content h2 { padding: 5px 6px; margin: 0 0 5px 0; font: bold .8125em/1.3 arial, helvetica, sans-serif; border: 1px solid #6f91d0; border-width: 1px 0 1px 0; background: url(http://css.erau.edu/iface/gold_horz.gif) repeat-y  ; }
+
+.secondary_content h2~h2 {margin-top: 15px} /*This adds a top margin to h2 tags after the first h2*/
+
+.secondary_content h3 { padding: 0; margin: 9px 0 0 10px; font-weight: bold; font-size: .75em }
+
+.secondary_content p, .secondary_content li { font: normal .8125em/1.3 arial, helvetica, sans-serif;}
+.secondary_content p { margin: 0 10px 6px 12px;}
+.secondary_content li { margin: 3px 0  3px 14px; padding-top: 4px; list-style-image: none; list-style: none;  }
+.secondary_content ul.linklist { margin: 0 0 8px 10px; font-size: 100%}
+.secondary_content ul.linklist li, .secondary_content ul.linklist a { font-size: .875em; line-height: 1em; }
+.secondary_content blockquote { font-size:.75em; line-height: 1.4; font-style: italic;  margin: 8px 0 12px 14px; }
+
+.secondary_content dl { margin-left: 12px; font-size: .8125em; }
+.secondary_content dl dt { margin-top: 4px; font-size: .875em }
+.secondary_content dl dd { font-size: .875em }
+
+
+.secondary_content li a { font-size: .875em }
+.secondary_content img { margin: 0 0;}
+.secondary_content a img { margin: 0 auto; float: none;  padding: 12px 0; }
+
+.secondary_content #socialmedia { margin: 0; padding: 2px; width: 100%; }
+.secondary_content #socialmedia img {  display: inline; }
+
+
+div#info { margin: 0; padding: 0; }
+
+
+/*Fourth Level Nav*/
+#rightNav {  margin: 0 0 0 0; padding-bottom: 30px; background: #fff; }
+#rightNav li { margin: 0; padding: 0 }
+#rightNav li a { border: 0; margin: 0 0 0 0; padding: 4px 6px 4px 20px; font: normal .9375em/1 arial, sans-serif; display: block;    color: #000; background: #fff url(iface/bullet.gif) 8px 35% no-repeat}
+
+#rightNav li a:hover { color: #fff; background: #b0c5e7; } 
+#rightNav li a.SELF { font-weight: bold;    }
+
+
+
+
+
+
+
+
+
+/*Microformats Vcard*/ 
+.vcard { font-weight: normal;  font-size: .9375em; margin: 15px 0; }
+.vcard p { margin: 2px 0 0 0; padding: 0; }
+.vcard p.title { margin: 1px 0 0 0;}
+.vcard img.photo {margin: 0 12px 12px 0; float: left; }
+
+.vcard .tel+.tel { margin: 0; }
+
+.vcard p.fn { font-weight: bold; margin-top: 2px}
+p.title, p.org, p.street-address, p.organization-unit, p span.extended-address { display: block;}
+p span.country-name, p span.postal-code { display: inline-block; padding-right: 4px}
+
+.vcard p.title, .vcard p.role { font-weight: normal; font-style: italic; margin-top: 0; }
+.vcard .org { margin-top: 0; }
+.vcard { max-width: 350px; }/*limits vcard width outside of secondary content*/
+.vcard .note { font-size: 90%}
+
+
+
+/*Microformats Vcard nested in secondary_content*/
+.secondary_content .vcard { font: normal .875em/1.2 arial, sans-serif; margin: 10px 0; padding-left: 10px; }
+.secondary_content .vcard p { margin: 3px 0 0 0; padding: 0; }
+.secondary_content .vcard .tel+.tel { margin-top: 0; }
+.secondary_content .vcard .fn  { font-weight: bold;  font-size: .9375em; }
+/*
+.secondary_content .vcard .org,
+.secondary_content .vcard .street-address { display: block;}
+*/
+.secondary_content .vcard p.title { font-weight: normal; font-style: italic; }
+
+
+
+/*Container for group of vcard contacts generated by RX*/
+div.contact-group {  padding: 0 0 40px 0;  column-count: 2;  column-gap: 20px;}
+div.contact-group:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+div.contact-group div.vcard {  display: block; max-width: 100%;  padding-top: 4px; margin: 20px 30px 0 0;  font-size: 85%;}
+div.contact-group div.vcard:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+div.contact-group div.vcard p { margin-left:  105px; }
+div.contact-group div.vcard span.photo { display: block; width: 90px; height: 100px; overflow: hidden; float: left; margin-left: -105px; margin-right: 8px; }
+div.contact-group div.vcard span.photo img { margin: 0 0 0 -5px; padding: 0; }
+div.contact-group div.vcard .note {  }
+div.shownote div.vcard .note { }
+h3.contact-group-header { clear: left; margin: 0; padding: 1px 8px;  background: #ddd; color: #000; font: bold 1em arial, sans-serif;}
+p.organization-unit, p.organization-name { font-size: 85%}
+
+
+
+/*Created for Presidents Staff. Makes a vcard floated gallery.*/
+.v-gallery { width: 180px; float: left; margin: 0 30px 0 0; padding: 0; height: 300px}
+.v-gallery img {margin: 0 0 8px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Did You Know Teaser Boxes*/
+
+#did-you-know { width: 105px; float: right; background: #fff url(iface/did-you-know.gif) center top no-repeat;  padding: 70px 0 0 8px; margin: 0 0 40px 50px;  display: inline; border-left: 2px dotted #b0c5e7; position: relative; right: -3px}
+#did-you-know p { font: normal .75em/1.6 trebuchet ms, sans-serif; padding: 0 4px  4px 6px; margin-top: -26px; }-->
+#did-you-know p a { display: block; width: 30px;}
+#did-you-know p a:hover { color: #fff; font: bold 1em/1.6 arial, sans-serif; }
+
+#did-you-know p a span#pop { display: none; color #fff ; font: bold .875/1.3 arial, sans-serif;}
+#did-you-know p a:hover span#pop { display: block; position: absolute; top: 0; right: 0; width: 220px; background: #3f61a1; padding: 15px; 
+border-left: 1px solid #000; border-top: 4px solid #f6b30e;  }
+
+
+
+
+/*Footer Content*/
+#bottomLinks { text-align: center; list-style: none;  margin: 0; padding-top: .5em; }
+#bottomLinks li { display: inline;  padding: 0 10px 0 10px; margin: 0; border-right: 1px solid rgb(59, 86, 131); text-align: center; }
+#bottomLinks li.last { border-right: medium none;}
+#bottomLinks a {font: normal .8125em/1 Arial, Helvetica, sans-serif;  padding: 0 3px 2px 3px; color: #000; border: 0;}
+#bottomLinks a:hover {border-bottom: 1px solid #a9bbd9;}
+
+/*FOOTER Footer is outside div#nonfooter. div#nonfooter is 100% of window with padding on bottom which provides space for footer. Footer is brought into view by the negative top margin.*/
+#footer p { text-align: center; font: normal .6875em/1.2 Arial, Helvetica, sans-serif; margin: 0; padding:0; }
+#footer p.copyright {  margin-top: 1.5em;}
+#footer p.campus { font-weight: bold;}
+#footer p.address { font: normal .6875em/1.2 Arial, Helvetica, sans-serif; }
+
+
+.clear { clear: both; } 
+
+
+/*MISC*/
+
+.floatright {float: right; margin: .5em 0 10px 10px;}
+.floatleft { float: left; margin: .5em 10px 10px 0; }
+
+/*Link from article lead in to the whole article*/
+span.morelink a { font: bold .8em Arial, Helvetica, sans-serif; padding: 0 .5em; margin-left: 8px; background: #ccc; color: #000;}
+
+
+
+pre { font-family: monospace; font-size: .875em; }
+strong { font-weight: bold; }
+em { font-style:italic; }
+
+hr { display: none; }
+div.hr { height: 1px; margin: 1.5em 10px; border-bottom: 1px dotted black; }
+
+address { margin: .2em 1em; font-style: italic; font-size: .8125em; line-height: 1.2em }
+
+
+pre {
+padding: 12px; background: #fff; border: 1px solid #ccc;
+color:blue;
+font: normal 1em/.9 "Lucida Console","Courier New",Courier,monospace;
+font-size-adjust:none;
+font-style:normal;
+font-variant:normal;}
+
+pre span { display: block; color: red; margin: 12px 0 2px 0;}
+
+#returnbar div.remove {float: right;  width: 150px; text-align: right; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()() 
+NAVIGATION
+Left Nav.  #u-nav is the div for non-Rhythmyx markup like university site. #nav is for RX where there is no parent child classes.
+
+
+
+
+
+
+/*_________________________________________
+#nav is the Rhythmyx version of u-nav
+––––––––––––––––––––––––––––––––––––––––––*/
+
+#nav, #nav * { padding: 0; margin: 0;} 
+#nav { padding-bottom: 200px; background: url(http://css.erau.edu/iface/nav-bottomfade.jpg) center bottom no-repeat; } 
+
+#nav ul { padding: 0 0 0 0; margin: 0;}/*small space bottem of parent ul*/
+#nav ul img { margin: 0 0 0 0}  /*small space before  fade image*/
+
+#nav h2 { margin: 0 0 0 0;}
+
+#nav h2 a {background: #3f61a1; border: 0; display: block; color: #fff; font: bold 1em/1.2 arial, helvetica, sans-serif; padding: 12px 8px 12px 14px;}
+
+/*
+#nav h2 a.SELF,
+#nav h2 a.ANCESTOR,
+#nav h2 a.PARENT { border: 0; color: #fff; background: #3f61a1;}
+*/
+#nav li { display: inline;  /*display:inline removes extra space between list items from ie6*/ } 
+
+#nav ul li a { color: #222;  /*all links set to black*/
+display: block;   /*needed to make the whole a tag clickable not just the text*/
+border: 0;   /*deletes the underline border default on ERAU links*/
+font: bold .9375em/1 arial, helvetica, sans-serif; /*menus are all sans-serif*/
+padding: .5em .5em .5em 1.2em;
+border-bottom: 1px solid #b0c5e7;
+
+} /*space around text in links*/
+
+#nav ul li a:hover { color: #222; background: #b0c5e7; /*hover color for top-level links*/ }
+
+
+/*Nested Menus*/
+#nav ul ul { padding: 0 0 .15em 0; /*border-bottom: 1px solid #b0c5e7; 
+Space bottom of nested lists. Negates padding put on parent ul*/
+/*background: #b0c5e7;*/ 
+} 
+
+#nav ul li.thirdlevel a { padding: 0 0 .15em 0; /*border-bottom: 1px solid #b0c5e7; 
+Space bottom of nested lists. Negates padding put on parent ul*/
+/*background: #b0c5e7;*/ 
+} 
+
+#nav ul ul a {
+padding: .3em .7em .3em 2.5em; font-weight: normal; font-size: .875em;  } 
+
+#nav ul li.thirdlevel a { padding: .3em .7em .3em 2.5em; font-weight: normal; font-size: .875em; }
+
+
+#nav ul li a.SELF { background: #fff; color: #222; }
+
+#nav li.secondlevel a.PARENT, #nav li.secondlevel a.ANCESTOR { color: #222; background: #b0c5e7; }
+
+#nav li.thirdlevel a { background:transparent url(iface/bullet.gif) 20px 20% no-repeat}
+#nav li.thirdlevel a.SELF, #nav li.thirdlevel a.PARENT { background: #fff url(iface/bullet.gif) 20px 20% no-repeat; color: #222; font-weight: bold; }
+
+
+
+
+
+
+
+/*SITE MAP*/
+
+#sitemap { font-size: 100%; }
+
+
+#sitemap h2 {margin: 8px 0 0 0; padding: 0;}
+#sitemap h2.ANCESTOR { } 
+#sitemap h2.NONE {  } 
+
+#sitemap ul {  }
+
+#sitemap li.secondlevel a {  font-size: 1.1em; }
+
+#sitemap li.thirdlevel a {  margin: 0 0 0 30px; color: #666}
+
+#sitemap a:hover { font-weight: normal; border-bottom: 1px solid #ccc; }
+#sitemap h2 a:hover { font-weight: bold; border-bottom: 1px solid #ccc; }
+
+
+
+
+/*()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()() 
+TABLES
+-------------------------------------------------------------------------- */
+
+
+/* Tables still need 'cellspacing="0"' in the markup. */
+table { border-collapse: collapse; border-spacing: 0; border: 1px solid #708090; width: 100%; margin-bottom: 10px; }
+
+table+p { margin-top: 1em; }
+
+th {
+text-align: center; vertical-align: middle;
+background: #d6d6d6; 
+color: #222;
+border: 1px solid #708090; 
+border-width: 0 1px; 
+padding: 5px 4px 5px 8px; ; 
+font: bold .75em/1 Arial, Helvetica, sans-serif;
+}
+
+th a { font: bold .75em/1 Arial, Helvetica, sans-serif;}
+
+
+td { text-align: left; vertical-align: middle;
+font: normal .75em/1 Arial, Helvetica, sans-serif; 
+border: 1px solid #708090; 
+border-bottom: 1px solid #ccc; 
+padding: 5px 4px 5px 8px; }
+
+table caption { text-align: left; font: bold .75em/1 Arial, Helvetica, sans-serif; padding: 12px 0 6px 0;}
+
+table tfoot tr td { 
+font: italic .6875em/1.1 arial, sans-serif; 
+background: #fafafa; 
+padding: 8px 6px 6px 8px; 
+border-top: 1px solid #ccc;}
+
+.odd { background-color: #fff; }
+.even { background-color: #f6f6f6; }
+
+
+
+
+
+
+/*--------------Special SPRY styles for About/Facts and Figures*/ 
+
+table th.numbers {text-align: center;}
+
+/*
+#TabbedPanels1 table td {  border: 1px solid #ccc; border-width: 0 1px 0 1px; padding: 4px 12px 4px 5px;}
+#TabbedPanels1 table tr.total td { border-top: 2px solid #000;  font-weight: bold;}
+
+*/
+
+table#fees,
+table#tuition,
+table#tuition-ww { width: 450px}
+
+
+table.left {width: 300px; float: left; }
+table.right {width: 300px; float: right;  }
+table.left td+td, table.right td+td {width: 90px;}
+
+
+col.numbers { text-align: right;}
+
+#officers td + td { text-align: left;}
+
+table.number_data td + td { text-align: right; padding-right: 15px; width: 25%}
+table.number_data th { text-align: left; }
+table.number_data th + th { text-align: right; padding-right: 15px; }
+
+table.number_data-3col th { text-align: left; }
+table.number_data-3col th + th { text-align: right; padding-right: 15px; width: 18%}
+table.number_data-3col td + td { text-align: right; padding-right: 15px; width: 18%}
+
+
+
+table.floated { float: left; margin-right: 30px; }
+
+
+
+
+/*--------------Admissions Estimated Costs Tables 
+/admissions/estimated-costs.html
+classes added with jquery erau_allsites_enhancement.js*/
+
+table.items-costs {  background: #fff;  width: 80%; }
+table.items-costs tr th { text-align: left; }
+table.items-costs tr th+th { text-align: center; }
+table.items-costs tr td.number_column { text-align: right; padding-right: 8px; }
+table.items-costs td.total_label { font-weight: bold; text-align: right; padding: 3px; border-top: 1px solid #ccc;}
+table.items-costs td.total_amount { text-align: right; padding-right: 20px; font-weight: bold; border-top: 4px double #000;}
+
+
+
+
+
+
+
+/*()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()() 
+IMAGES
+-------------------------------------------------------------------------- */
+
+
+//this line breaks your Pictures page, image gallery
+//img { border: 0; margin: 10px 0; display: block; padding: 0;}
+img.landing-image, #logo-homelink img,  .flashdemo  { margin: 0}
+
+img a, a img {border: 0; text-decoration: none;}
+
+/*This is a full bleed image at top of pages above the H1*/
+.pageimage { position: relative; width: 720px; overflow: hidden; display: inline; }
+
+
+
+
+
+/*Photos with captions.
+Must be contained in the same floating div.
+A p tag under the image is styled as the caption*/
+
+div.photo-caption-r { clear: both; float:right; margin: 15px 0 15px 15px; border-left: 1px solid #666; padding-left: 6px;}
+
+div.photo-caption-l { float:left; margin: 5px 15px 15px 0; }
+
+div.photo-caption-r img, div.photo-caption-l img { display: block; width: 100%; margin: 0; padding: 0; border: 0;}
+
+div.photo-caption-l p, div.photo-caption-r p { width: 100%; font: bold .75em/1.2 Arial, Helvetica, sans-serif; margin: 0 0 0 0; padding: 8px 8px 6px 8px; background: #fff; }
+
+
+div.image { background: red; margin: 20px 0; text-align: center; height: 200px; }
+
+div._01 { width: 648px; }
+
+div._01a, div._01b { width: 314px; float: left; }
+div._01a { margin-right: 20px }
+
+div._02 { width: 420px; height: 200px; background: red;  margin: 10px 0 20px 0; }
+div._02a, div._02b { width: 200px; float: left;  margin: 10px 0 20px 0;}
+div._02a { margin-right: 20px }
+
+
+/*
+div.image_03 { width: 200px; height: 200px; background: yellow; float: left; margin: 10px 25px 10px 0;  }
+
+
+*/
+div.image h4 { margin: 0; color: #fff; padding: 30px 0 10px 0 ; font: bold 1em/1.2 arial; }
+div.image p { margin: 0; color: #fff; padding: 0 15px; font: normal .8em/1.2 arial; }
+
+
+
+/*Gallery CSS developed for News Media image downloads /newsmedia/downloads/db01.html*/
+
+ul.gallery_list {
+	margin: 1em 0 0 -20px;
+	width: 100%;
+	list-style: none;
+}
+ul.gallery_list li {
+	float: left;
+	width: 160px; height: 270px;
+	margin: 20px 20px 0 0;
+	background: #CCCCCC;
+	padding: 15px;
+	list-style: none;
+	display: inline;
+	text-align: center;}
+
+ul.gallery_list img { 
+	border: 1px solid #fff;
+	margin-bottom: 6px;}
+
+ul.gallery_list p {
+	font: bold .8em/1.1 Arial, Helvetica, sans-serif; margin: 0 0 3px 0}
+ul.gallery_list p a {
+	font: normal .9em/1.1 Arial, Helvetica, sans-serif; margin: 0 0 3px 0}
+
+
+
+
+/*Image Gallery e.g. http://worldwide.erau.edu/why-worldwide/board-visitors.html. Supports 3 across list in generic template.*/
+
+
+ul.image_gallery, ul.image_gallery * { margin: 0; padding: 0;  border: 0; }
+ul.image_gallery li { background: #dcdcdc; width: 180px; overflow: hidden; float: left; list-style-image: none; list-style: none; margin: 15px 25px 0 0; text-align: center; font: normal .875em/1.1 ariel, helvetica, sans-serif; padding-bottom: 6px; }
+ul.image_gallery li img { margin: 8px auto; padding: 4px; border: 1px solid #999; background: #fff;  }
+ul.image_gallery li span { font-size: .875em; display: inline-block; padding-top: 3px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()() 
+FORMS
+-------------------------------------------------------------------------- */
+
+
+#form { margin: 0; padding: 0; }
+#text { width: 280px; float: left; }
+
+form { width: auto; margin: 0 auto; padding: 10px 10px 10px 10px; background: #fff; border: 1px solid #aaa; } 
+form:after, fieldset:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+form h2 { margin: 0; padding: 12px; background: #b0c5e7; text-align: center;  }
+form  div { width: 100%; padding:4px 0;}
+form  p {font: italic .75em/1.2 arial, serif; margin: 5px 8px; color: #3f61a1}
+
+fieldset { margin: 15px 0 0 0;  padding: 12px 10px 10px 10px;  border: 1px solid #b0c5e7;}
+fieldset.actions { margin: 0;  padding: 0; border: 0; background: transparent;}
+fieldset.radio-set div { display: inline; float: left; width: 85px; padding-left: 5px; }
+
+fieldset fieldset { width: auto; background: #fff; margin: 5px 5px; padding: 0 7px;}
+
+
+
+legend { font: bold .75em/1 arial, sans-serif; color:#333; margin-top: 3px; margin-bottom: 5px;}
+label { display: block; font: normal .75em/1 arial, sans-serif; margin: 0 6px 3px 0; }
+label em { font-size: 11px; font-weight: normal; color: #b0c5e7; }
+
+//input, textarea { width: 300px; border: 1px solid #666; padding: 2px 0 0 0; font: normal .80em/1 arial, sans-serif;}
+input, textarea { border: 1px solid #666;
+ }
+input[disabled='disabled'], [disabled]{
+  background-color:#E0E0E0;
+}
+input#tournumber {width: 50px;}
+
+input:focus, textarea:focus {background: #e1eafd}
+
+input.radio, input.checkbox { width: auto;  float: left; margin-right: 6px; border: 0}
+
+input.submit
+{ width: auto;
+border: 3px double #999999;
+border-top-color: #cccccc;
+border-left-color: #cccccc;
+padding: 0.25em;
+background-color: #e1eafd;
+color: #333333;
+font-size: .6875em;
+font-weight: bold;
+float: right; 
+margin: 6px 12px} 
+
+input.hidden {display: none; border: 0}
+select { font: normal .80em/1 arial, sans-serif; }
+
+
+
+/*
+FORM LAYOUT: FOR <div class="text-and-form-cols">*/
+
+div.text-and-form-cols #form { float: right; width: 345px; display: inline;}
+
+div.text-and-form-cols fieldset { width: 300px; margin: 15px 0 0 0;  padding: 12px 10px 10px 10px;  border: 1px solid #b0c5e7;  }
+div.text-and-form-cols fieldset.actions { margin: 0;  padding: 0; border: 0; background: transparent;}
+div.text-and-form-cols fieldset.radio-set div { display: inline; float: left; width: 85px; padding-left: 5px; }
+div.text-and-form-cols fieldset fieldset { width: auto; background: #fff; margin: 5px 5px; padding: 0 7px;}
+
+
+div.text-and-form-cols legend { font: bold .85em/1 arial, sans-serif; color:#333; margin-top: 3px;}
+
+div.text-and-form-cols label { display: block; font: normal .75em/1 arial, sans-serif; margin: 0 6px 3px 0; }
+div.text-and-form-cols label em { font-size: 11px; font-weight: normal; color: #b0c5e7; }
+
+div.text-and-form-cols input#tournumber {width: 50px;}
+
+
+div.text-and-form-cols input.radio, div.text-and-form-cols input.checkbox { width: auto; border: 0; float: left; margin-right: 6px; }
+
+
+
+
+
+
+
+/*FORM LAYOUT: FOR <div class="form-only">*/
+
+div.form-only #text { display: none; }
+div.form-only #form { float: none; width: 100%; padding: 0; background: transparent; }
+div.form-only #form form {  background: #fff; }
+
+
+div.form-only fieldset.float { width: 280px;  display: inline; padding: 20px 12px 12px 12px;}
+div.form-only fieldset.nofloat { clear: both; float: none; padding: 20px 12px 12px 12px;}
+
+div.form-only fieldset.float input, div.form-only fieldset.float textarea { width: 100%;}
+div.form-only fieldset.float fieldset input, div.form-only fieldset.float fieldset textarea { width: 100%;}
+
+
+div.form-only fieldset.left {float: left; }
+div.form-only fieldset.right {float: right; }
+
+fieldset.radio-yn {  border: 0; width: 145px; float: left;  }
+fieldset.radio-yn div { display: inline; float: left; width: 65px; padding-left: 5px; border: 0}
+
+div.form-only form fieldset fieldset div input.checkbox { width: 18px; border: 0; float: left; margin-right: 6px; }
+
+/*For Floating 3 field sets nested in another field set only in page-copy class="form-only".*/
+
+div.form-only fieldset.float3sets fieldset {width: 172px; float: left; margin-right: 8px; padding-top: 10px}
+div.form-only fieldset.float3sets fieldset legend {font-size: .75em; }
+
+div.form-only fieldset.float3sets fieldset div { padding:  0; font-size: .95em; }
+div.form-only fieldset.float3sets fieldset div label { padding-top: 3px; margin-left: 24px; }
+div.form-only fieldset.float3sets fieldset div.inline div {display: inline; float: left; width: 85px; padding-left: 5px; }
+
+
+div.form-only fieldset.all-float div {display: inline; float: left; width:145px; padding-left: 5px;  }
+
+div.form-only fieldset.all-float label {padding-top: 3px; }
+
+#NumRooms { width: 80px }
+#PresentationDate { width: 140px }
+
+
+
+
+fieldset div br { display : none; }
+
+/* HEADER Search Form*/
+#erau_search_container * { margin: 0; padding: 0; width: auto; height: auto; background: transparent; border: 0; }
+#erau_search_container { display: block;  position: absolute; top: 9px; left: 705px; width: 250px; margin: 0; padding: 0; background: transparent;  overflow: hidden;}
+
+form#erausearch span.search_input_container { height: 17px; overflow: hidden; float: left;  }
+
+form#erausearch input.search_input { 
+width: 170px; height: 17px; overflow: hidden;
+color: #000; font-weight: normal; font-size: 12px;  
+padding: 0; margin: 0; 
+border: 0; background: #e3e9f4; background-image: none;
+}
+
+form#erausearch span.submit_button_container { 
+	display: block; width: 70px; 
+	/* _display: inline-block; only for IE6 ;*/
+	padding: 0; margin: 0;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+form#erausearch input.submit {/* position: absolute;*/
+	font: bold 11px/17px arial, sans-serif; color: #000;
+	background: #c3cfe6;
+	width: 100%; height: 17px;
+	cursor: pointer;
+}
+
+/* HEADER Search Form*/
+#erau_search_container * { margin: 0; padding: 0; width: auto; height: auto; background: transparent; border: 0; }
+#erau_search_container { display: block;  position: absolute; top: 9px; left: 705px; width: 250px; margin: 0; padding: 0; background: transparent;  overflow: hidden;}
+
+form#erausearch span.search_input_container { height: 17px; overflow: hidden; float: left;  }
+
+form#erausearch input.search_input { 
+width: 170px; height: 17px; overflow: hidden;
+color: #000; font-weight: normal; font-size: 12px;  
+padding: 0; margin: 0; 
+border: 0; background: #e3e9f4; background-image: none;
+}
+
+form#erausearch span.submit_button_container { 
+	display: block; width: 70px; 
+	/* _display: inline-block; only for IE6 ;*/
+	padding: 0; margin: 0;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+form#erausearch input.submit {/* position: absolute;*/
+	font: bold 11px/17px arial, sans-serif; color: #000;
+	background: #c3cfe6;
+	width: 100%; height: 17px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SpryTabbedPanels.css - version 0.4 - Spry Pre-Release 1.6 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* Horizontal Tabbed Panels
+ *
+ * The default style for a TabbedPanels widget places all tab buttons
+ * (left aligned) above the content panel.
+ */
+
+/* This is the selector for the main TabbedPanels container. For our
+ * default style, this container does not contribute anything visually,
+ * but it is floated left to make sure that any floating or clearing done
+ * with any of its child elements are contained completely within the
+ * TabbedPanels container, to minimize any impact or undesireable
+ * interaction with other floated elements on the page that may be used
+ * for layout.
+ *
+ * If you want to constrain the width of the TabbedPanels widget, set a
+ * width on the TabbedPanels container. By default, the TabbedPanels widget
+ * expands horizontally to fill up available space.
+ *
+ * The name of the class ("TabbedPanels") used in this selector is not
+ * necessary to make the widget function. You can use any class name you
+ * want to style the TabbedPanels container.
+ */
+.TabbedPanels {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	clear: none;
+	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+
+/* This is the selector for the TabGroup. The TabGroup container houses
+ * all of the tab buttons for each tabbed panel in the widget. This container
+ * does not contribute anything visually to the look of the widget for our
+ * default style.
+ *
+ * The name of the class ("TabbedPanelsTabGroup") used in this selector is not
+ * necessary to make the widget function. You can use any class name you
+ * want to style the TabGroup container.
+ */
+.TabbedPanelsTabGroup {
+	margin: 0 0 0 20px;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+	border-left: solid 1px #6f91d0;
+}
+
+/* This is the selector for the TabbedPanelsTab. This container houses
+ * the title for the panel. This is also the tab "button" that the user clicks
+ * on to activate the corresponding content panel so that it appears on top
+ * of the other tabbed panels contained in the widget.
+ *
+ * For our default style, each tab is positioned relatively 1 pixel down from
+ * where it wold normally render. This allows each tab to overlap the content
+ * panel that renders below it. Each tab is rendered with a 1 pixel bottom
+ * border that has a color that matches the top border of the current content
+ * panel. This gives the appearance that the tab is being drawn behind the
+ * content panel.
+ *
+ * The name of the class ("TabbedPanelsTab") used in this selector is not
+ * necessary to make the widget function. You can use any class name you want
+ * to style this tab container.
+ */
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	padding: 4px 10px;
+	margin: 0px 5px 0px 0px;
+	font: bold 0.7em sans-serif;
+	background-color: #DDD;
+	list-style: none;
+	border-left: solid 1px #999;
+	border-bottom: solid 1px #999;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+}
+
+/* This selector is an example of how to change the appearnce of a tab button
+ * container as the mouse enters it. The class "TabbedPanelsTabHover" is
+ * programatically added and removed from the tab element as the mouse enters
+ * and exits the container.
+ */
+.TabbedPanelsTabHover {
+	background-color: #CCC;
+}
+
+/* This selector is an example of how to change the appearance of a tab button
+ * container after the user has clicked on it to activate a content panel.
+ * The class "TabbedPanelsTabSelected" is programatically added and removed
+ * from the tab element as the user clicks on the tab button containers in
+ * the widget.
+ *
+ * As mentioned above, for our default style, tab buttons are positioned
+ * 1 pixel down from where it would normally render. When the tab button is
+ * selected, we change its bottom border to match the background color of the
+ * content panel so that it looks like the tab is part of the content panel.
+ */
+.TabbedPanelsTabSelected {
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+/* This selector is an example of how to make a link inside of a tab button
+ * look like normal text. Users may want to use links inside of a tab button
+ * so that when it gets focus, the text *inside* the tab button gets a focus
+ * ring around it, instead of the focus ring around the entire tab.
+ */
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+
+/* This is the selector for the ContentGroup. The ContentGroup container houses
+ * all of the content panels for each tabbed panel in the widget. For our
+ * default style, this container provides the background color and borders that
+ * surround the content.
+ *
+ * The name of the class ("TabbedPanelsContentGroup") used in this selector is
+ * not necessary to make the widget function. You can use any class name you
+ * want to style the ContentGroup container.
+ */
+.TabbedPanelsContentGroup {
+	clear: both;
+  border: 1px solid #999;
+  border-width: 1px 0 0 1px;
+	background: #fff;
+}
+
+/* This is the selector for the Content panel. The Content panel holds the
+ * content for a single tabbed panel. For our default style, this container
+ * provides some padding, so that the content is not pushed up against the
+ * widget borders.
+ *
+ * The name of the class ("TabbedPanelsContent") used in this selector is
+ * not necessary to make the widget function. You can use any class name you
+ * want to style the Content container.
+ */
+.TabbedPanelsContent {
+	padding: 25px 15px 0 30px;
+}
+
+/* This selector is an example of how to change the appearnce of the currently
+ * active container panel. The class "TabbedPanelsContentVisible" is
+ * programatically added and removed from the content element as the panel
+ * is activated/deactivated.
+ */
+.TabbedPanelsContentVisible {
+}
+
+/* Vertical Tabbed Panels
+ *
+ * The following rules override some of the default rules above so that the
+ * TabbedPanels widget renders with its tab buttons along the left side of
+ * the currently active content panel.
+ *
+ * With the rules defined below, the only change that will have to be made
+ * to switch a horizontal tabbed panels widget to a vertical tabbed panels
+ * widget, is to use the "VTabbedPanels" class on the top-level widget
+ * container element, instead of "TabbedPanels".
+ */
+
+/* This selector floats the TabGroup so that the tab buttons it contains
+ * render to the left of the active content panel. A border is drawn around
+ * the group container to make it look like a list container.
+ */
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: right;
+	width: 200px;
+	/*background-color: yellow;*/
+	position: relative;
+    
+	/*	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;*/
+	
+	}
+	
+
+/* This selector disables the float property that is placed on each tab button
+ * by the default TabbedPanelsTab selector rule above. It also draws a bottom
+ * border for the tab. The tab button will get its left and right border from
+ * the TabGroup, and its top border from the TabGroup or tab button above it.
+ 
+*/
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	display: block;
+	padding: 4px 10px;
+	margin: 0;
+	font: bold .8125em/1 sans-serif;
+	list-style: none;
+	list-style-type: none;
+	list-style-image: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+background: #fff; 
+}
+
+.VTabbedPanels  ul.TabbedPanelsTabGroup li {
+border: solid 1px #6f91d0;
+border-width: 1px 0 1px 0  ;
+}
+
+.VTabbedPanels  ul.TabbedPanelsTabGroup li+li { border-width: 0 0 1px 0  ;
+}
+
+
+
+/* This selector disables the float property that is placed on each tab button
+ * by the default TabbedPanelsTab selector rule above. It also draws a bottom
+ * border for the tab. The tab button will get its left and right border from
+ * the TabGroup, and its top border from the TabGroup or tab button above it.
+ */
+.VTabbedPanels .TabbedPanelsTabSelected {
+background: #fff url(iface/gold_horz.gif) top left; repeat: no-repeat ;
+
+/*
+	border-bottom: solid 1px #000;
+	border-top: solid 1px #000;
+*/}
+
+/* This selector floats the content panels for the widget so that they
+ * render to the right of the tabbed buttons.
+ */
+.VTabbedPanels .TabbedPanelsContentGroup {
+	display: inline; 
+	overflow: visible;
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 350px;
+	height: auto; 
+	margin-left: -50px;
+	border: 0;
+	background: transparent; }
+
+
+
+
+.VTabbedPanels { 
+margin: -9px 0 0 32px;
+border-top: 0;
+padding-top: 12px;
+ }
+
+
+
+
+
+
+
+/*SPECIAL TREATMENT DIVS*/
+
+#testimonials { width: 420px; padding-top: 20px; }
+#testimonials blockquote { font-size: .8125em; line-height: 1.3; padding: 10px 0 25px 0;  border-top: 1px solid #ccc; text-indent: -6px; font-family: tahoma; }
+#testimonials cite { display: block; margin-left: 175px; margin-top: 4px; color: #666;  font-size: 90%; text-indent: 0; }
+#testimonials cite a {  width: auto; border-bottom: 1px solid #fff; }
+#testimonials cite a:hover { border-bottom: 1px solid #ccc; }
+
+
+
+/*NEWS RELEASE PAGES*/
+
+#release-banner p { font: bold .85em arial; border-top: 1px solid #999;  border-bottom: 1px solid #999; padding: 3px 0  3px 0; margin: 10px 0 0 0; }
+#release-banner p.release-address, #release-banner p.release-contact { border: 0; display: inline; float: left; margin: 2px 0 0 90px; font: normal .75em arial; }
+#release-banner p.release-contact { margin-left: 30px}
+
+p.news-event-banner { margin-top: 15px; font-family: arial, sans-serif; padding: 4px 0;  border-bottom: 1px solid #666; letter-spacing: .3em; }
+p.news-event-banner span {  letter-spacing: 0; font-size: 95%; border: 0;  }
+p.news-event-banner span a {  border: 0; padding: 0 0 0 20px; position: relative; left: 380px;}
+
+span.release-date { font-weight: bold; }
+
+
+
+
+
+
+/*EVENT CALENDAR MODIFICATON*/
+div.sideBarContainer,
+div.sideBarContainer h4,
+div.sideBarContainer ul.sideLinks,
+div.sideBarContainer li,
+div.sideBarContainer li a { padding: 0; margin: 0; } 
+
+div.sideBarContainer { clear: both;  display: block;  }
+div.sideBarContainer h4 {display: none}
+div.sideBarContainer ul {  padding: 0; }
+div.sideBarContainer li { list-style-image: none; list-style: none; text-align: center; }
+div.sideBarContainer ul li a { color: #000; font: normal 100% arial, sans-serif; display: block;  padding: 4px 8px; background: transparent; }
+div.sideBarContainer ul li a:hover {  color: #000; background: #b0c5e7 }
+
+
+
+
+
+/*JQUERY MODIFICATION:*/
+
+/*Accordion*/
+.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; background: #fafafa}
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0 !important;  }
+.ui-accordion .ui-accordion-header a { display: block; font-size: .8125em; padding: .3em .5em .3em .7em; color: #000; font-family: Georgia,Palatino,Times,serif;}
+/* IE7-/Win - Fix extra vertical space in lists */
+.ui-accordion a { zoom: 1; }
+.ui-accordion-icons .ui-accordion-header a { padding-left: 2.2em; }
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+.ui-accordion .ui-accordion-content { padding: 1em 2.2em; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; zoom: 1; }
+.ui-accordion .ui-accordion-content-active { display: block; font-size: .75em; font-family: Georgia,Palatino,Times,serif; }
+#accordion h3 {font-size: 110%; margin-left: 0}
+#accordion th, #accordion td {font-size: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+TEMPORARY TURN OFF MAJOR ELEMENTS
+
+#header_extender { display: none }
+#nonFooter {  display: none }
+#columns { background-image: url(http://css.erau.edu/fauxcol.png  }
+#header {  visibility: hidden; }
+#content { display: none  }
+#footer {  display: none }
+*/
+
+/*
+TEMPORARY ID ELEMENTS BY COLOR
+
+.secondary_content .vcard .fn a { color: maroon }
+.secondary_content .vcard .title { color: purple }
+.secondary_content .vcard .role { color: green }
+.secondary_content .vcard .org { color: teal }
+.secondary_content .vcard .organization-unit { color: orange }
+.secondary_content .vcard .tel { color: red }
+.secondary_content .vcard .email { color: aqua }
+.secondary_content .vcard .street-address { color: olive }
+
+*/
+
+/*
+.vcard .fn a { color: maroon }
+.vcard .title { color: purple }
+.vcard .role { color: green }
+.vcard .org { color: teal }
+.vcard .organization-unit { color: orange }
+.vcard .tel { color: red }
+.vcard .email { color: aqua }
+.vcard .street-address { color: olive }
+.vcard .note { color: red }
+*/
+
+
+

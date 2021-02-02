@@ -1,0 +1,10 @@
+/users/wildlfctr/public_html/databaseQuery/results_i.php|Unknown (40.77.167.9)|Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)|Mon May 30 2016 00:01:50 MST
+/users/wildlfctr/public_html/WildlifeManagement.php|Unknown (157.55.39.158)|Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)|Mon May 30 2016 00:12:18 MST
+/users/wildlfctr/public_html/databaseQuery/results_i.php|Unknown (157.55.39.26)|Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)|Mon May 30 2016 00:15:25 MST
+/users/wildlfctr/public_html/databaseQuery/results_i.php|Unknown (40.77.167.9)|Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)|Mon May 30 2016 00:43:38 MST
+/users/wildlfctr/public_html/Resources.php|Unknown (207.46.13.10)|Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)|Mon May 30 2016 01:02:18 MST
+/users/wildlfctr/public_html/displayForum.php|Unknown (64.237.51.165)|Mozilla/5.0 (Windows; U; Windows NT 5.1; pt-PT; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 (.NET CLR 3.5.30729)|Mon May 30 2016 01:08:49 MST
+/users/wildlfctr/public_html/databaseQuery/results_i.php|Unknown (207.46.13.10)|Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)|Mon May 30 2016 01:09:40 MST
+/users/wildlfctr/public_html/databaseQuery/results_i.php|Unknown (207.46.13.10)|Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)|Mon May 30 2016 01:18:33 MST
+/users/wildlfctr/public_html/databaseQuery/results_i.php|Unknown (68.180.229.165)|Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)|Mon May 30 2016 01:18:46 MST
+/users/wildlfctr/public_html/databaseQuery/results_i.php|Unknown (68.180.229.165)|Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)|Mon May 30 2016 01:25:42 MST

@@ -1,0 +1,823 @@
+Species ID	Common Name	Scientific Name	Mass(g)	Bird Size	Mean Mass Male	Mean Mass Female	Mean Mass ?Sex	Max Mass Male	Max Mass Female	Max Mass Sex	Max Mass	Species Classification	MBTA	Comments	Strikes Since 1990	% Multiple	% Damaging
+_1	Mammals	Mammalia														0.0	0.0
+_1A	Didelphimorphia (formerly marsupials)	Didelphimorphia	4990	Large												0.0	0.0
+_1A1	Virginia opossum	Didelphus virginianus	4990	Large								1			211	0.5	0.5
+_1B	Xenarthra (formerly edentates)	Xenarthra	5670	Large												0.0	0.0
+_1B1	Armadillo	Dasypus novemcinctus	5670	Large								1			33	0.0	3.0
+_1C	Bats	Chiroptera	31	Small											10	10.0	10.0
+_1C1	Megabats	Megachiroptera	1000	Medium											13	30.8	15.4
+_1C101	Flying fox	Pteropus spp	560	Medium			560.00								1	0.0	0.0
+_1C2	Microbats	Microchiroptera	15	Small											738	8.9	0.7
+_1C21	Vesper bats	Vespertilionidae	14	Small											63	1.6	0.0
+_1C2101	Red bat	Lasiurus borealis	14	Small								2			125	6.4	1.6
+_1C2102	Hoary bat	Lasiurus cinereus	35	Small								2			63	3.2	0.0
+_1C2103	Eastern small-footed myotis	Myotis leibii	7	Small								2			1	0.0	0.0
+_1C2104	Little brown bat	Myotis lucifugus	8	Small								2			113	3.5	0.0
+_1C2105	Big brown bat	Eptesicus fuscus	14	Small								2			71	8.5	0.0
+_1C2106	Silver-haired bat	Lasionycteris noctivagans	9	Small								2			48	4.2	0.0
+_1C2107	Seminole bat	Lasiurus seminolus	11	Small								2			4	0.0	0.0
+_1C2110	Eastern pipistrelle	Pipistrellus subflavus	5	Small								2			15	0.0	0.0
+_1C2111	Northern yellow bat	Lasiurus intermedius	17	Small						20.00	20.00	2			3	0.0	0.0
+_1C2112	Evening bat	Nycticeius humeralis	14	Small						14.00	14.00	2			10	0.0	0.0
+_1C2113	Indiana bat	Myotis sodalis	6	Small			6.40			10.00	10.00	2			2	0.0	0.0
+_1C2114	Yuma myotis	Myotis yumanensis	6	Small	5.90		5.90			7.10	7.10	2			1	0.0	0.0
+_1C2115	Long-eared myotis	Myotis evotis	8	Small						8.00	8.00	2			1	0.0	0.0
+_1C2116	Western yellow bat	Lasiurus xanthinus	12	Small			11.90					2			1	0.0	0.0
+_1C2117	Common pipistrelle	Pipestrellus pipistrellus	6	Small			5.75			8.00	8.00	2			1	0.0	0.0
+_1C2118	Long-legged myotis	Myotis volans	10	Small			7.50			10.00	10.00	2			1	0.0	0.0
+_1C22	Free-tailed bats	Molossidae	16	Small											59	11.9	0.0
+_1C2201	Brazilian free-tailed bat	Tadarida brasiliensis	15	Small								2		Revised from "Brazilian free-tailed bat per RD on 11/23/15	248	6.5	0.4
+_1C2202	Pocketed free-tailed bat	Nyctinomops femorosacca	14	Small								2			2	0.0	0.0
+_1C2203	Big free-tailed bat	Nyctinomops macrotis	30	Small						30.00	30.00	2			1	0.0	0.0
+_1C2204	Western mastiff bat	Eumops perotis	57	Small						73.00	73.00	2			2	0.0	0.0
+_1C2205	Florida bonneted bat	Eumops floridanus	40	Small			39.70			54.50	54.50	2			1	0.0	0.0
+_1C2206	Pallas's mastiff bat	Molossus molossus	13	Small								2		Also called velvety  free-tailed bat		0.0	0.0
+_1C23	Sac-winged bats	Emballonuridae	7	Small												0.0	0.0
+_1C2301	Gray sac-winged bat	Balantiopteryx plicata	7	Small								2			1	0.0	0.0
+_1C24	New World leaf-nosed bats	Phyllostomidae	50	Small												0.0	0.0
+_1C2401	Jamaican fruit bat	Artibeus jamaicensis	50	Small			50.00			60.00	60.00	2			3	33.3	0.0
+_1D	Lagomorphs (rabbits	 hares)	Lagomorpha	1985	Large										1	0.0	100.0
+_1D1	Hares	Lepus spp	2444	Large											7	0.0	0.0
+_1D11	Black-tailed jackrabbit	Lepus californicus	2268	Large								1			292	0.3	1.4
+_1D12	White-tailed jackrabbit	Lepus townsendii	3402	Large								1			47	4.3	0.0
+_1D13	Antelope jackrabbit	Lepus alleni	4000	Large			4000.00			5900.00	5900.00	1			1	0.0	0.0
+_1D2	Rabbits	Laporidae	1334	Medium											100	5.0	0.0
+_1D21	Eastern cottontail	Sylvilagus floridanus	1361	Medium								1			88	0.0	3.4
+_1D22	Desert cottontail	Sylvilagus audubonii	1247	Medium								1			28	0.0	0.0
+_1E	Rodents	Rodentia	2977	Large												0.0	0.0
+_1E11	North American beaver	Castor canadensis	20000	Large								1			2	0.0	0.0
+_1E3	Prairie dogs	 marmots	 squirrels	Scuridae	2615	Large										0.0	0.0
+_1E31	Prairie dogs	Cynomys spp	985	Medium											2	0.0	0.0
+_1E3101	Black-tailed prairie dog	Cynomys ludovicianus	1050	Medium			1050.00			1400.00	1400.00	1			49	4.1	0.0
+_1E3102	White-tailed prairie dog	Cynomys ludovicianus	1000	Medium			1000.00	1136.00			1136.00	1			5	0.0	0.0
+_1E3103	Gunnison's prairie dog	Cynomys gunnisoni	816	Medium				1350.00			1350.00	1			15	20.0	0.0
+_1E32	Marmots	Marmota spp	3416	Large												0.0	0.0
+_1E3201	Woodchuck	Marmota monax	3402	Large								1			150	0.0	1.3
+_1E3202	Yellow-bellied marmot	Marmota flaviventris	5000	Large								1			1	0.0	0.0
+_1E33	Squirrels	Scuridae	1000	Medium											1	0.0	0.0
+_1E3301	Fox squirrel	Sciurus niger	1000	Medium								1			1	0.0	0.0
+_1E5	New world rats	Cricetidae	1361	Medium												0.0	0.0
+_1E52	Muskrat	Ondatr zibethicus	1361	Medium								1			28	0.0	0.0
+_1E7	New world porcupines	Erethizontida	8618	Large												0.0	0.0
+_1E71	North American porcupine	Erethizon dorsatum	8618	Large								1			15	0.0	0.0
+_1E81	Coypu (nutria)	Myocaster coypus	6000	Large			6000.00			17000.00	17000.00	1			1	0.0	0.0
+_1F	Carnivores	Carnivora	10990	Large												0.0	0.0
+_1F1	Canids	Canidae	13883	Large											4	0.0	25.0
+_1F11	Coyote	Canis latrans	15876	Large								1			510	1.2	8.6
+_1F12	Domestic dog	Canis familiaris	34927	Large								1			45	2.2	33.3
+_1F13	Foxes	Canidae (foxes)	5524	Large											66	1.5	6.1
+_1F131	Red fox	Vulpes fulva	5670	Large								1			158	0.0	2.5
+_1F132	Common gray fox	Urocyon cinereoargenteus	4536	Large								1			10	0.0	20.0
+_1F133	Kit fox	Vulpes macrotis	2000	Large			2000.00	2700.00			2700.00	1			4	0.0	0.0
+_1F3	Raccoons	 coatis	 ringtails	Procyonidae	10529	Large										0.0	0.0
+_1F31	Raccoon	Procyon lotor	10660	Large								1			113	3.5	3.5
+_1F32	White-nosed coati	Nasua narica	9072	Large								1			1	0.0	0.0
+_1F33	Ringtail	Bassariscus astutus	1021	Medium								1			1	0.0	0.0
+_1F4	Skunks	Mephitidae	4536	Large											57	3.5	0.0
+_1F41	Striped skunk	Mephitis mephitis	4536	Large								1			323	1.5	0.0
+_1F5	Mustelids	Mustlidae	6788	Large												0.0	0.0
+_1F51	River otter	Lutra canadensis	7938	Large								1			2	0.0	50.0
+_1F52	Badger	Taxidea taxus	12000	Large								1			5	0.0	0.0
+_1F53	Mink	Mustela vison	1000	Medium	1000.00	600.00		1300.00	700.00		1300.00	1			6	0.0	0.0
+_1F6	Cats	Felidae	4309	Large												0.0	0.0
+_1F61	Domestic cat	Felis catus	4309	Large								1			31	0.0	0.0
+_1F7	Civets (mongooses)	Herpestidae	650	Medium												0.0	0.0
+_1F71	Small Indian mongoose	Herpestes javanicus	650	Medium	650.00	430.00						1			3	0.0	0.0
+_1F81	Bears	Ursidae	135000	Large												0.0	0.0
+_1F811	American black bear	Ursus americanus	135000	Large			135000.0	200000.0			200000.0	1			1	0.0	0.0
+_1G	Even-toed ungulates	 swine	 cattle	 etc	Artiodactyla	98561	Large									0.0	0.0
+_1G1	Deer	Odocoileus spp	88256	Large											18	0.0	88.9
+_1G11	White-tailed deer	Odocoileus virginianus	88000	Large								1			1016	7.8	83.8
+_1G12	Mule deer	Odocoileus hemionus	92000	Large								1			79	3.8	89.9
+_1G2	Wapiti (elk)	Cervis elaphus	317520	Large								1			11	9.1	100.0
+_1G3	Moose	Alces alces	389189	Large								1			5	0.0	80.0
+_1G4	Caribou	Rangifer arcticus	119297	Large								1			2	0.0	100.0
+_1G5	Cattle	 sheep	Bovidae	753430	Large											0.0	0.0
+_1G51	Cattle	Bos taurus	753430	Large								1			11	36.4	100.0
+_1G6	Pronghorn	Antilocapra americana	46721	Large								1			9	22.2	88.9
+_1G7	Swine	Suidae	199584	Large												0.0	0.0
+_1G71	Swine (pigs)	Sus scrofa	199584	Large								1			2	0.0	50.0
+_1G8	Peccaries	Tayassuidae	20412	Large												0.0	0.0
+_1G81	Collared peccary	Tayassu tajacu	20412	Large								1			2	50.0	50.0
+_1H	Odd-toed ungulates	 horses	 burros	Perissodactyla	900456	Large										0.0	0.0
+_1H1	Horse	Equus caballus	1147608	Large								1			3	0.0	100.0
+_1H11	Burro	Equus asinus	159000	Large								1			1	0.0	100.0
+_1UNKM	Unknown terrestrial mammal	Mammalia													25	4.0	28.0
+_2	Reptiles	Reptilia														0.0	0.0
+_2A	Turtles	Testudines	3611	Large											67	0.0	0.0
+_2A1	Florida soft shell turtle	Trionyx serox	11000	Large								3			10	0.0	10.0
+_2A10	Pond slider	Trachemys scripta	1000	Medium								3		3 subspecies red-eared (T.s. elegans)	3	0.0	0.0
+_2A11	Eastern mud turtle	Kinosternon subrubrum	207	Small	125.00	207.00		163.00	291.00		291.00	3			1	0.0	0.0
+_2A12	Chicken turtle	Deirochelys reticularia	800	Medium								3			1	0.0	0.0
+_2A13	Peninsula cooter	Pseudemys peninsularis	3000	Large						3500.00	3500.00	3				0.0	0.0
+_2A14	Striped mud turtle	Kinosternon baurii	203	Small	142.00	203.00		284.00	405.00				3		1	0.0	0.0
+_2A2	Eastern box turtle	Terrapene carolina	350	Small								3			11	0.0	0.0
+_2A3	Common snapping turtle	Chelydra serpentina	9979	Large								3			28	0.0	0.0
+_2A4	Diamondback terrapin	Malaclemys terrapin	455	Medium								3			43	4.7	0.0
+_2A5	Painted turtle	Chrysemys picta	350	Small								3			24	0.0	0.0
+_2A6	Florida red-bellied cooter	Pseudemys nelsoni	4000	Large	1800.00	4000.00						3			2	0.0	0.0
+_2A7	Gopher tortoise	Gopherus polyphemus	4000	Large			4000.00			4500.00	4500.00	3			18	0.0	0.0
+_2A8	Alligator snapping turtle	Macrochelys temminckii	75000	Large			75000.00			100000.0	100000.0	3			1	0.0	0.0
+_2A9	Coastal plain cooter	Pseudemys concinna	3000	Large						3500.00	3500.00	3		Florida cooter is sub species	3	0.0	0.0
+_2B	Alligators	 crocodiles	Crocodilidae	136080	Large											0.0	0.0
+_2B1	American alligator	Alligator mississippie	136080	Large			136080.0					3			19	0.0	5.3
+_2C	Iguanas	Iguana spp	5000	Large											1	0.0	0.0
+_2C1	Green iguana	Iguana iguana	5000	Large			5000.00					3			11	0.0	0.0
+_2D	Snakes	Serpentes	2300	Large											6	0.0	0.0
+_2D1	Bull snake	Pituophis catenifer	2300	Large			2300.00	4500.00			4500.00	3			5	0.0	0.0
+_2D2	Northern water snake	Nerodia sipedon	1361	Medium			1361.00			1814.00	1814.00	3			2	0.0	0.0
+_2D3	Eastern diamondback rattlesnake	Crotalus adamanteus	2300	Large			2300.00			4900.00	4900.00	3			1	0.0	0.0
+_2D4	Water moccasin	Agkistrodon piscivorus	580	Medium	580.00	254.00		4600.00			4600.00	3			1	0.0	0.0
+_2D5	Eastern pine snake	Pituophis melanoleucus	1000	Medium									3	Can grow to 8 feet long	1	0.0	0.0
+_E	Loons	Gaviidae	4850	Large											2	0.0	50.0
+_E1001	Common loon	Gavia immer	5460	Large	5460.00			6130.00			6130.00	4	1		33	0.0	60.6
+_E1002	Red-throated loon	Gavia stellata	1486	Medium			1486.00			1923.00	1923.00	4	1		8	0.0	50.0
+_E1003	Pacific loon	Gavia pacifica	1830	Large	1830.00	1507.00		2450.00	2038.00		2450.00	4	1		1	0.0	100.0
+_F	Grebes	Podicipediformes	804	Medium											11	18.2	18.2
+_F1001	Eared grebe	Podiceps nigricollis	422	Small	422.00	374.00		521.00	477.00		521.00	4	1		13	7.7	15.4
+_F1002	Western grebe	Aechmophorus occidentalis	1429	Medium	1429.00	1199.00		1826.00	1753.00		1826.00	4	1		39	20.5	33.3
+_F1003	Pied-billed grebe	Podilymbus podiceps	474	Medium	474.00	358.00		568.00	479.00		568.00	4	1		39	0.0	10.3
+_F1004	Horned grebe	Podiceps auritus	453	Medium			453.00			528.00	528.00	4	1		12	8.3	25.0
+_F1005	Red-necked grebe	Podiceps grisegena	1023	Medium			1023.00			1270.00	1270.00	4	1		3	33.3	33.3
+_F1006	Clark's grebe	Aechmophorus clarkii	1341	Medium	1341.00	1133.00		1685.00	1258.00		1685.00	4	1		1	0.0	0.0
+_F1007	Great crested grebe	Podicpes cristatus	738	Medium	738.00	609.00						4	4		1	0.0	0.0
+_G	Albatrosses	 shearwaters	 petrels	Procellariiformes	2025	Large										0.0	0.0
+_G1	Albatrosses	Diomedeidae	3321	Large												0.0	0.0
+_G1001	Laysan albatross	Phoebastria immutabilis	3310	Large	3310.00	2990.00		4100.00	3600.00		4100.00	4	1		37	2.7	21.6
+_G1002	Black-footed albatross	Phoebastria nigripes	3400	Large	3400.00	2990.00		4300.00	3600.00		4300.00	4	1		5	0.0	20.0
+_G2	Petrels	 fulmars	 shearwaters	Procellariidae	305	Small										0.0	0.0
+_G21	Petrels	Procellariiformes	176	Small												0.0	0.0
+_G2101	Bonin petrel	Pterodroma hypoleuca	176	Small			176.00			220.00	220.00	4	1		12	33.3	0.0
+_G22	Fulmars	fulmarus spp	649	Medium												0.0	0.0
+_G2201	Northern fulmar	Fulmaraus glacialis	649	Medium	649.00	577.00		773.00	710.00		773.00	4	1		1	0.0	0.0
+_G23	Shearwaters	Puffinus spp.	356	Small											1	0.0	0.0
+_G2302	Wedge-tailed shearwater	Puffinus pacificus	388	Small			388.00			510.00	510.00	4	1		13	0.0	0.0
+_G2303	Townsend's shearwater	Puffinus auricularis	323	Small			323.00			358.00	358.00	4	1		11	0.0	0.0
+_G3	Storm-petrels	Hydrobatidae	54	Small												0.0	0.0
+_G3001	Fork-tailed storm-petrel	Oceanodroma furcata	54	Small			54.40			67.50	67.50	4	1		1	0.0	0.0
+_G3002	Band-rumped storm-petrel	Oceanodroma castro	45	Small			45.30			54.00	54.00	4	1		1	0.0	0.0
+_H	Pelicans	 cormorants	 boobies	Pelecaniformes	2508	Large										0.0	0.0
+_H1	Tropicbirds	Phaethonitidae	455	Medium											11	0.0	72.7
+_H1001	White-tailed tropicbird	Phaethon lepturus	367	Small			367.00					4	1		14	0.0	35.7
+_H1002	Red-tailed tropicbird	Phaethon rubricauda	659	Medium			659.00					4	1		3	0.0	33.3
+_H2	Pelicans	Pelecanidae	4195	Large											6	0.0	66.7
+_H2001	Australian pelican	Pelecanus conspicillatus	5505	Large			5505.00			6800.00	6800.00	4	4		1	0.0	100.0
+_H2002	Brown pelican	Pelecanus occidentalis	3702	Large	3702.00	3174.00						4	1		66	12.1	42.4
+_H2003	American white pelican	Pelecanus erythrorhynchos	6329	Large	6329.00	4970.00		8000.00	5900.00		8000.00	4	1		18	44.4	72.2
+_H3	Gannets	 boobies	Sulidae	1233	Medium											0.0	0.0
+_H32	Boobies	Sula spp	1223	Medium												0.0	0.0
+_H3201	Red-footed booby	Sula sula	1223	Medium			1223.00					4	1		1	0.0	0.0
+_H4	Cormorants	 shags	Phalacrocoracidea	2116	Large											0.0	0.0
+_H41	Cormorants	Phalacrocoracidea	2116	Large											3	0.0	33.3
+_H4101	Great cormorant	Phalacrocorax carbo	3240	Large	3240.00	2630.00						4	1		2	100.0	50.0
+_H4105	Double-crested cormorant	Phalacrocorax auritus	2089	Large	2089.00	1831.00						4	1		131	16.0	35.1
+_H4106	Pelagic cormorant	Phalacrocorax pelagicus	2072	Large	2072.00	1641.00		2440.00	2041.00		2440.00	4	1		2	0.0	0.0
+_H4107	Brandt's cormorant	Phalacrocorax penicillatus	2570	Large	2570.00	1925.00		2682.00	2298.00		2682.00	4	1		1	0.0	100.0
+_H5	Anhingas	 darters	Anhingidae	1235	Medium											0.0	0.0
+_H51	Anhinga	Anhinga anhinga	1235	Medium			1235.00					4	1		32	12.5	46.9
+_H6	Frigatebirds	Fregatidae	1670	Large												0.0	0.0
+_H6003	Great frigatebird	Fregata minor	1662	Large	1280.00	1662.00						4	1		11	0.0	27.3
+_H6004	Magnificent frigatebird	Fregata magnificens	1704	Large	1465.00	1704.00						4	1		8	0.0	50.0
+_I	Herons	 storks	 ibises	 flamingos	Ciconiiformes	1074	Medium									0.0	0.0
+_I1	Herons	 egrets	 bitterns	Ardeidae	1059	Medium									4	0.0	0.0
+_I11	Herons	Ardeidae	2049	Large											51	3.9	23.5
+_I1101	Gray heron	Ardea cinerea	1443	Medium			1443.00			2073.00	2073.00	4	1		1	0.0	100.0
+_I1102	Great blue heron	Ardea herodias	2480	Large	2480.00	2110.00						4	1		371	2.2	20.2
+_I1105	Black-crowned night-heron	Nycticorax nycticorax	810	Medium			810.00			1014.00	1014.00	4	1		81	6.2	11.1
+_I1109	Little blue heron	Egretta caerulea	364	Small	364.00	315.00						4	1		8	0.0	0.0
+_I1110	Green heron	Butorides virescens	212	Small			212.00					4	1		19	5.3	0.0
+_I1111	Yellow-crowned night-heron	Nyctanassa violacea	716	Medium	716.00	649.00						4	1		37	8.1	27.0
+_I1112	Tricolored heron	Egretta tricolor	415	Small	415.00	334.00						4	1		3	0.0	0.0
+_I12	Bitterns	Ardeidae	169	Small												0.0	0.0
+_I1202	American bittern	Botaurus lentiginosus	706	Medium			706.00			1072.00	1072.00	4	1		10	0.0	30.0
+_I1203	Yellow bittern	Ixobrychus sinensis	94	Small			94.30			120.00	120.00	4	1		116	6.0	0.0
+_I1204	Least bittern	Ixobrychus exilis	86	Small			86.00					4	1		1	0.0	0.0
+_I13	Egrets	Ardeidae	469	Medium											331	26.9	9.7
+_I1301	Cattle egret	Bubulcus ibis	372	Small	372.00	360.00		460.00	512.00		512.00	4	1		386	21.0	8.5
+_I1302	Great egret	Ardea alba	935	Medium	935.00	812.00						4	1		89	12.4	14.6
+_I1304	Intermediate egret	Mesophoyx intermedia	516	Medium	408.00	516.00		500.00	562.00		562.00	4	1		1	0.0	0.0
+_I1306	Snowy egret	Egretta thula	371	Small			371.00					4	1		32	3.1	12.5
+_I5	Storks	Ciconiidae	2764	Large												0.0	0.0
+_I5001	White stork	Ciconia ciconia	3571	Large	3571.00	3325.00		4400.00	3900.00		4400.00	4	1		1	0.0	100.0
+_I5006	Wood stork	Mycteria americana	2702	Large	2702.00	2415.00			2780.00		2780.00	4	1		17	23.5	29.4
+_I6	Ibises	 spoonbills	Threskiornithidae	893	Medium											0.0	0.0
+_I61	Ibises	Threskiornithidae	851	Medium											5	20.0	0.0
+_I6104	Glossy ibis	Plegadis falcinellus	663	Medium				768.00	680.00		768.00	4	1		3	33.3	33.3
+_I6106	White ibis	Eudocimus albus	1036	Medium	1036.00	764.00		1261.00	864.00		1261.00	4	1		23	8.7	13.0
+_I6107	White-faced ibis	Plegadis chihi	697	Medium	697.00	546.00		807.00	677.00		807.00	4	1		16	31.2	56.2
+_I62	Spoonbills	Threskiornithidae	1490	Medium												0.0	0.0
+_I6203	Roseate spoonbill	Platalea ajaja	1490	Medium			1490.00			1800.00	1800.00	4	1		3	0.0	0.0
+_J	Ducks	 geese	 swans	Anseriformes	2511	Large									141	39.7	48.9
+_J21	Ducks	Anseriformes	1059	Medium											823	32.1	34.3
+_J2103	American wigeon	Anas americana	792	Medium	792.00	719.00		1036.00	872.00		1036.00	4	1		73	28.8	37.0
+_J2104	Northern pintail	Anas acuta	1006	Medium	1006.00	887.00		1245.00	1100.00		1245.00	4	1		153	43.1	45.8
+_J2106	Green-winged teal	Anas crecca	364	Small	364.00	318.00		454.00	409.00		454.00	4	1		69	29.0	23.2
+_J2107	Blue-winged teal	Anas discors	380	Small	380.00	340.00						4	1		49	22.4	34.7
+_J2108	Eurasian wigeon	Anas penelope	819	Medium	819.00	724.00		1073.00	962.00		1073.00	4	1		1	100.0	0.0
+_J2109	Mallard	Anas platyrhynchos	1246	Medium	1246.00	1095.00						4	1		897	23.1	22.2
+_J2111	Common eider	Somateria mollissima	2218	Large	2218.00	1915.00		2800.00	2895.00		2895.00	4	1		3	33.3	66.7
+_J2112	Ring-necked duck	Aythya collaris	730	Medium	730.00	680.00		1090.00	1180.00		1180.00	4	1		29	31.0	37.9
+_J2113	Greater scaup	Aythya marila	1054	Medium	1054.00	959.00		1316.00	1210.00		1316.00	4	1		13	38.5	23.1
+_J2114	Wood duck	Aix sponsa	681	Medium	681.00	635.00		907.00	907.00		907.00	4	1		56	16.1	32.1
+_J2115	Muscovy duck	Cairina moschata	2858	Large	2858.00	2042.00						4	1		4	0.0	25.0
+_J2116	Common goldeneye	Bucephala clangula	1120	Medium	1120.00	711.00		1329.00	760.00		1329.00	4	1		6	0.0	33.3
+_J2117	Red-breasted merganser	Mergus serrator	1135	Medium	1135.00	908.00		1317.00	1271.00		1317.00	4	1		8	12.5	12.5
+_J2118	Hooded merganser	Lophodytes cucullatus	680	Medium	554.00	680.00		652.00	879.00		879.00	4	1		11	18.2	36.4
+_J2130	Common merganser	Mergus merganser	1709	Large	1709.00	1232.00		2054.00	1362.00		2054.00	4	1		5	20.0	40.0
+_J2131	Northern shoveler	Anas clypeata	636	Medium	636.00	590.00		908.00	726.00		908.00	4	1		76	31.6	35.5
+_J2134	Gadwall	Anas strepera	968	Medium	968.00	866.00		1250.00	980.00		1250.00	4	1		77	31.2	37.7
+_J2136	Canvasback	Aythya valisineria	1252	Medium	1252.00	1154.00		1600.00	1530.00		1600.00	4	1		23	39.1	47.8
+_J2137	American black duck	Anas rubripes	1400	Medium	1400.00	1100.00		1800.00	1500.00		1800.00	4	1		59	28.8	10.2
+_J2138	Mottled duck	Anas fulvigula	1043	Medium	1043.00	934.00		1241.00	1151.00		1241.00	4	1		27	22.2	14.8
+_J2139	Lesser scaup	Aythya affinis	850	Medium	850.00	790.00		1050.00	960.00		1050.00	4	1		53	30.2	37.7
+_J2140	Ruddy duck	Oxyura jamaicensis	629	Medium	629.00	588.00						4	1		66	12.1	21.2
+_J2141	Redhead	Aythya americana	1118	Medium	1118.00	1035.00		1320.00	1245.00		1320.00	4	1		8	37.5	37.5
+_J2142	Bufflehead	Bucephala albeola	473	Medium	473.00	334.00		551.00	374.00		551.00	4	1		20	5.0	10.0
+_J2143	Long-tailed duck	Clangula hyemalis	932	Medium	932.00	814.00						4	1		6	16.7	66.7
+_J2144	Philippine duck	Anas luzonica	891	Medium	891.00	777.00		977.00	818.00		977.00	4	4		1	100.0	100.0
+_J2145	Black-bellied whistling-duck	Dendrocygna autumnalis	796	Medium	796.00	760.00		950.00	880.00		950.00	4	1		6	16.7	50.0
+_J2146	Cinnamon teal	Anas cyanoptera	383	Small	383.00	372.00		450.00	470.00		470.00	4	1		5	20.0	20.0
+_J2147	White-winged scoter	Melanitta fusca	1917	Large	1917.00	1732.00		2128.00	1946.00		2128.00	4	1		3	33.3	66.7
+_J2148	Hawaiian duck	Anas wyvilliana	644	Medium	644.00	585.00						4	1		15	26.7	0.0
+_J2149	Harlequin duck	Histrionicus histrionicus	610	Medium	610.00	517.00		680.00	571.00		680.00	4	1		1	0.0	0.0
+_J2150	Barrow's goldeneye	Bucephala islandica	1130	Medium	1130.00	751.00		1314.00	857.00		1314.00	4	1		1	0.0	0.0
+_J2151	Surf scoter	Melanitta perspicillata	1148	Medium	1148.00	1047.00						4	1		1	0.0	0.0
+_J22	Geese	Anseriformes	4000	Large											380	36.1	57.6
+_J2202	Snow goose	Chen caerulescens	2744	Large	2744.00	2517.00						4	1		130	59.2	77.7
+_J2204	Canada goose	Branta canadensis	4181	Large	4181.00	3514.00		4727.00	3912.00		4727.00	4	1		1594	41.7	49.4
+_J2209	Brant	Branta bernicla	1370	Medium	1370.00	1230.00		1790.00	1590.00		1790.00	4	1		37	24.3	29.7
+_J2210	Greater white-fronted goose	Anser albifrons	3000	Large	2700.00	3000.00						4	1		53	60.4	64.2
+_J2211	Emperor goose	Chen canagica	2370	Large	2370.00	1926.00						4	1		2	0.0	50.0
+_J2212	Cackling goose	Branta hutchinsii	2180	Large	2180.00	1920.00						4	1		12	25.0	58.3
+_J2213	Hawaiian goose	Branta sandvicensis	2165	Large	2165.00	1930.00		3050.00	1525.00		3050.00	4	1	aka Nene	2	50.0	50.0
+_J23	Swans	Anseriformes	9510	Large											2	0.0	50.0
+_J2302	Mute swan	Cygnus olor	11800	Large	11800.00	9670.00		14300.00	10600.00		14300.00	4	3		9	22.2	22.2
+_J2303	Tundra swan	Cygnus columbianus	7200	Large	7200.00	6300.00						4	1		16	62.5	81.2
+_J2305	Trumpeter swan	Cygnus buccinator	11900	Large	11900.00	10300.00		14500.00	12500.00		14500.00	4	1		2	50.0	100.0
+_K	Raptors: Hawks	 eagles	 vultures	 kites	 osprey	 falcons	 caracaras	Accipitriformes and Falconiformes	924	Medium					40	2.5	42.5
+_K1	New World Vultures	Cathartidae	2031	Large											325	8.6	59.4
+_K1001	Black vulture	Coragyps atratus	2159	Large			2159.00					4	1		148	7.4	61.5
+_K1002	Turkey vulture	Cathartes aura	2006	Large			2006.00					4	1		648	5.6	51.1
+_K2001	Osprey	Pandion haliaetus	1568	Large	1403.00	1568.00		1600.00	1900.00		1900.00	4	1		330	1.5	21.2
+_K3	Kites	 eagles	 hawks	Accipitridae	1362	Medium										0.0	0.0
+_K31	Kites	Accipitridae	387	Small												0.0	0.0
+_K3101	White-tailed kite	Elanus leucurus	346	Small			346.00					4	1		40	0.0	10.0
+_K3102	Black kite	Milvus migrans	870	Medium	870.00	802.00		920.00	920.00		920.00	4	1		3	0.0	66.7
+_K3108	Mississippi kite	Ictinia mississippiensis	311	Small	245.00	311.00		269.00	339.00		339.00	4	1		6	0.0	0.0
+_K3109	Swallow-tailed kite	Elanoides forficatus	442	Medium			442.00			510.00	510.00	4	1		4	0.0	0.0
+_K32	Eagles	Accipitridae	5282	Large											8	12.5	37.5
+_K3201	Bald eagle	Haliaeetus leucocephalus	5350	Large	4130.00	5350.00		4819.00	6400.00		6400.00	4	1		236	6.8	38.6
+_K3202	White-bellied sea-eagle	Haliaeetus leucogaster	3300	Large	2400.00	3300.00		2900.00	3900.00		3900.00	4	4		1	0.0	100.0
+_K3206	Golden eagle	Aquila chrysaetos	4627	Large	3900.00	4627.00		4475.00	5280.00		5280.00	4	1		20	5.0	20.0
+_K33	Hawks	Accipitridae	1174	Medium											1326	2.5	19.2
+_K3301	Northern goshawk	Accipiter gentilis	1137	Medium	912.00	1137.00		1099.00	1364.00		1364.00	4	1		3	0.0	0.0
+_K3302	Red-tailed hawk	Buteo jamaicensis	1224	Medium	1028.00	1224.00						4	1		2290	2.2	14.3
+_K3303	Rough-legged hawk	Buteo lagopus	1065	Medium	847.00	1065.00		1128.00	1660.00		1660.00	4	1		92	0.0	8.7
+_K3304	Red-shouldered hawk	Buteo lineatus	670	Medium	544.00	670.00		582.00	774.00		774.00	4	1		53	0.0	7.5
+_K3305	Swainson's hawk	Buteo swainsoni	1109	Medium	808.00	1109.00		936.00	1367.00		1367.00	4	1		133	1.5	12.0
+_K3309	Eurasian sparrowhawk	Accipiter nisus	325	Small	150.00	325.00						4	4			0.0	0.0
+_K3310	Sharp-shinned hawk	Accipiter striatus	174	Small	103.00	174.00		125.00	208.00		208.00	4	1		27	0.0	7.4
+_K3311	Cooper's hawk	Accipiter cooperii	529	Medium	349.00	529.00		380.00	588.00		588.00	4	1		96	1.0	5.2
+_K3312	Ferruginous hawk	Buteo regalis	1776	Large	1163.00	1776.00		1347.00	2047.00		2047.00	4	1		35	0.0	14.3
+_K3313	Broad-winged hawk	Buteo platypterus	490	Medium	420.00	490.00						4	1		26	11.5	38.5
+_K3314	Harris's hawk	Parabuteo unicinctus	1047	Medium	725.00	1047.00		877.00	1203.00		1203.00	4	1		2	0.0	0.0
+_K3315	Hawaiian hawk	Buteo solitarius	606	Medium	414.00	606.00						4	1		1	0.0	0.0
+_K3316	White-tailed hawk	Buteo albicaudatus	928	Medium	844.00	928.00		923.00			923.00	4	1		3	0.0	0.0
+_K3317	Eurasian buzzard	Buteo buteo	969	Medium	781.00	969.00		1183.00	1364.00		1364.00	4	4	aka Eurasian buzzard	3	0.0	33.3
+_K35	Harriers	Circinae	515	Medium												0.0	0.0
+_K3502	Northern harrier	Circus cyaneus	515	Medium	359.00	515.00		472.00	661.00		661.00	4	1		121	2.5	2.5
+_K36	Old world vultures	Accipitridae	6969	Large											2	50.0	50.0
+_K3607	Lappet-faced vulture	Torgos tracheliotus	6969	Large			6969.00			8500.00	8500.00	4	1		1	0.0	100.0
+_K5	Falcons and Caracaras	Falconiformes	194	Small											50	4.0	6.0
+_K51	Falcons	 kestrels	 falconets	Falconinae	171	Small									2	50.0	50.0
+_K5102	Peregrine falcon	Falco peregrinus	977	Medium	652.00	977.00		810.00	1194.00		1194.00	4	1		314	4.5	7.3
+_K5103	Gyrfalcon	Falco rusticolus	1752	Large	1170.00	1752.00		1304.00	2000.00		2000.00	4	1		2	0.0	0.0
+_K5105	Merlin	Falco columbarius	218	Small	163.00	218.00		223.00	281.00		281.00	4	1		99	5.1	2.0
+_K5113	Prairie falcon	Falco mexicanus	908	Medium	560.00	908.00		661.00	1133.00		1133.00	4	1		25	8.0	4.0
+_K5114	American kestrel	Falco sparverius	132	Small	113.00	132.00						4	1		4580	4.2	0.6
+_K5115	Eurasian kestrel	Falco tinnunculus	201	Small	167.00	201.00		257.00	260.00		260.00	4	1		4	0.0	25.0
+_K52	Caracaras	 forest falcons	Polyborinae	1220	Medium											0.0	0.0
+_K5209	Crested caracara	Caracara cheriway	1220	Medium	1117.00	1220.00		1305.00	1355.00		1355.00	4	1		19	0.0	21.1
+_K5210	Yellow-headed carcara	Milvago chimachima	329	Small	302.00	329.00						4			1	0.0	0.0
+_L	Chicken-like birds	Galliformes	3028	Large												0.0	0.0
+_L3	Grouse	 ptarmigans	Tetraonidae	2430	Large											0.0	0.0
+_L31	Grouse	Tetraonidae	2836	Large											6	66.7	33.3
+_L3102	Greater sage-grouse	Centrocercus urophasianus	3190	Large	3190.00	1745.00						4	2		34	38.2	35.3
+_L3103	Sharp-tailed grouse	Tympanuchus phasianellus	953	Medium	953.00	817.00		1090.00	999.00		1090.00	4	2		7	0.0	14.3
+_L3104	Ruffed grouse	Bonasa umbellus	566	Medium	566.00	498.00						4	2		1	0.0	0.0
+_L3105	Spruce grouse	Falcipennis canadensis	492	Medium	492.00	456.00		489.00	513.00		513.00	4	2		1	0.0	0.0
+_L32	Ptarmigans	Lagopus spp	604	Medium									2		3	66.7	33.3
+_L3201	Willow ptarmigan	Lagopus lagopus	613	Medium	613.00	525.00						4	2		6	66.7	50.0
+_L3202	Rock ptarmigan	Lagopus muta	550	Medium	521.00	550.00		620.00	640.00		640.00	4	2		1	0.0	100.0
+_L4	Quails	 pheasants	Phasianidae	963	Medium										1	0.0	100.0
+_L41	Quails	Galliformes	181	Small											9	22.2	0.0
+_L4101	Northern bobwhite	Colinus virginianus	178	Small			178.00					4	2		13	15.4	15.4
+_L4107	California quail	Callipepla californica	186	Small	186.00	162.00		230.00	186.00		230.00	4	2			0.0	0.0
+_L4108	Scaled quail	Callipepla squamata	191	Small	191.00	177.00		234.00	218.00		234.00	4	2		5	0.0	0.0
+_L4109	Gambel's quail	callipepla gambelii	170	Small	170.00	162.00		207.00	193.00		207.00	4	2		1	100.0	0.0
+_L42	Pheasants	Galliformes	1317	Medium												0.0	0.0
+_L4201	Ring-necked pheasant	Phasianus colchicus	1317	Medium	1317.00	953.00		1861.00	1453.00		1861.00	4	2		85	7.1	20.0
+_L43	Partridges	Galliformes	508	Medium												0.0	0.0
+_L4301	Red-legged partridge	Alectoris rufa	540	Medium	516.00	540.00		547.00			547.00	4	2		1	0.0	0.0
+_L4302	Gray partridge	Perdix perdix	418	Small	418.00	393.00		483.00	472.00		483.00	4	2		24	41.7	16.7
+_L4303	Chukar	Alectoris chukar	541	Medium	541.00	466.00		580.00	550.00		580.00	4	2		4	25.0	0.0
+_L4305	Gray francolin	Francolinus pondicerianus	274	Small	274.00	228.00						4	2		3	0.0	0.0
+_L4306	Black francolin	Francolinus francolinus	482	Medium	482.00	424.00		566.00	482.00		566.00	4	2		5	0.0	0.0
+_L5	Guineafowl	Numididae	1350	Medium									2			0.0	0.0
+_L5002	Helmeted guineafowl	Numida meleagris	1350	Medium			1350.00					4	4		2	100.0	50.0
+_L6	Turkeys	Meleagrididae	7800	Large												0.0	0.0
+_L6001	Wild turkey	Meleagris gallopavo	7800	Large	7800.00	4300.00		10400.00	6500.00		10400.00	4	2		72	19.4	31.9
+_M	Cranes	 rails	Gruiformes	4809	Large											0.0	0.0
+_M4	Cranes	Gruidae	4809	Large											1	0.0	0.0
+_M4001	Sandhill crane	Grus canadensis	4800	Large	4800.00	4110.00						4	1		132	29.5	40.9
+_M4005	Whooping crane	Grus americana	5826	Large			5826.00			6356.00	6356.00	4	1		1	0.0	100.0
+_M7	Rails	Rallidae	602	Medium											8	12.5	12.5
+_M7001	Sora	Porzana carolina	75	Small			74.80			126.00	126.00	4	1		46	8.7	8.7
+_M7003	Common gallinule	Gallinula galeata	339	Small	339.00	271.00		493.00	343.00		493.00	4	1	Common gallinule (Gallinula galeata) was split as separate sepcies from the common moorhen (Gallinula chloropus) by AOU in July 2011. (Info per RD on 6/10/16.	7	0.0	14.3
+_M7005	American coot	Fulica americana	724	Medium	724.00	560.00		848.00	628.00		848.00	4	1		242	4.5	24.0
+_M7010	Eurasian coot	Fulica atra	902	Medium	902.00	770.00		1200.00	1150.00		1200.00	4	1	aka common coot	1	0.0	0.0
+_M7012	Purple gallinule	Porphyrio martinicus	257	Small	257.00	215.00						4	1		5	0.0	20.0
+_M7013	Virginia rail	Rallus limicola	84	Small			84.10			124.00	124.00	4	1		15	0.0	0.0
+_M7014	Clapper rail	Rallus longirostris	290	Small	290.00	247.00		310.00	314.00		314.00	4	1		9	0.0	0.0
+_M7015	Yellow rail	Coturnicops noveboracensis	61	Small			61.00				70.00	4	1		1	0.0	0.0
+_N	Shorebirds	Charadriiformes	560	Medium											28	32.1	3.6
+_N4	Oystercatchers	Haematopodidae	638	Medium												0.0	0.0
+_N4004	American oystercatcher	Haematopus palliatus	638	Medium	567.00	638.00		657.00	720.00		720.00	4	1		23	8.7	0.0
+_N5	Plovers	 lapwings	Charadriidae	113	Small										1	100.0	0.0
+_N51	Plovers	Charadriiformes	113	Small											64	17.2	4.7
+_N5103	European golden-plover	Pluvialis apricaria	214	Small			214.00			260.00	260.00	4	1		5	20.0	0.0
+_N5104	American golden-plover	Pluvialis dominica	154	Small	149.00	154.00		166.00	166.00		166.00	4	1		151	28.5	3.3
+_N5105	Black-bellied plover	Pluvialis squatarola	250	Small			250.00			283.00	283.00	4	1		134	17.2	6.0
+_N5106	Snowy plover	Charadrius nivosus	42	Small			42.30			58.00	58.00	4	1		3	66.7	0.0
+_N5111	Killdeer	Charadrius vociferus	101	Small	92.10	101.00		109.00	121.00		121.00	4	1		4547	9.7	1.1
+_N5122	Pacific golden-plover	Pluvialis fulva	140	Small	130.00	140.00		139.00	168.00		168.00	4	1		969	13.6	1.1
+_N5123	Semipalmated plover	Charadrius semipalmatus	47	Small	47.40	46.10		57.40	56.50		57.40	4	1		82	30.5	0.0
+_N5124	Piping plover	Charadrius melodus	55	Small			55.20			63.70	63.70	4	1		1	100.0	100.0
+_N5125	Wilson's plover	Charadrius wilsonia	55	Small			55.10			80.00	80.00	4	1		3	0.0	0.0
+_N52	Lapwings	Vanellus spp	277	Small												0.0	0.0
+_N5201	Northern lapwing	Vanellus vanellus	226	Small	211.00	226.00		242.00	317.00		317.00	4	1		1	100.0	100.0
+_N5205	Southern lapwing	Vanellus chilensis	327	Small			327.00			426.00	426.00	4	1		1	0.0	100.0
+_N6	Sandpipers	 curlews	 phalaropes	 allies	Scolopacidae	115	Small								280	30.4	5.4
+_N6001	Upland sandpiper	Bartramia longicauda	164	Small	154.00	164.00		170.00	218.00		218.00	4	1		235	8.9	3.0
+_N6002	Spotted sandpiper	Actitis macularius	40	Small			40.40			59.80	59.80	4	1		26	15.4	7.7
+_N6006	Willet	Tringa semipalmata	283	Small	258.00	283.00		282.00	327.00		327.00	4	1		6	33.3	0.0
+_N6009	Common snipe	Gallinago gallinago	113	Small	97.00	113.00		115.00	153.00		153.00	4	1		13	7.7	0.0
+_N6011	American woodcock	Scolopax minor	219	Small	176.00	219.00		222.00	278.00		278.00	4	1		89	6.7	3.4
+_N6013	Dunlin	Calidris alpina	60	Small	55.40	59.70						4	1		83	33.7	8.4
+_N6014	Baird's sandpiper	Calidris bairdii	44	Small	38.60	43.50						4	1		32	12.5	3.1
+_N6016	Western sandpiper	Calidris mauri	29	Small	26.60	29.10						4	1		126	61.1	3.2
+_N6017	Pectoral sandpiper	Calidris melanotos	98	Small	97.80	65.00						4	1		35	31.4	8.6
+_N6019	Sanderling	Calidris alba	51	Small	47.30	51.30						4	1		26	34.6	3.8
+_N6020	Buff-breasted sandpiper	Calidris subruficollis	69	Small	68.50	56.30		77.50	65.30		77.50	4	1		38	21.1	2.6
+_N6022	Ruddy turnstone	Arenaria interpres	138	Small	134.00	138.00						4	1		21	9.5	0.0
+_N6023	Bar-tailed godwit	Limosa lapponica	332	Small	282.00	332.00		380.00	400.00		400.00	4	1		1	0.0	0.0
+_N6024	Least sandpiper	Calidris minutilla	24	Small	22.00	23.80		26.40	26.40		26.40	4	1		140	27.1	0.7
+_N6028	Semipalmated sandpiper	Calidris pusilla	28	Small			27.50					4	1		73	42.5	0.0
+_N6029	Lesser yellowlegs	Tringa flavipes	78	Small			77.50			96.00	96.00	4	1		18	22.2	16.7
+_N6030	Short-billed dowitcher	Limnodromus griseus	116	Small	110.00	116.00		152.00	154.00		154.00	4	1		11	27.3	27.3
+_N6031	Hudsonian godwit	Limosa haemastica	289	Small	222.00	289.00						4	1		5	40.0	20.0
+_N6032	Solitary sandpiper	Tringa solitaria	48	Small			48.40			65.10	65.10	4	1		6	33.3	16.7
+_N6033	Greater yellowlegs	Tringa melanoleuca	153	Small			153.00					4	1		11	18.2	45.5
+_N6034	Long-billed dowitcher	Limnodromus scolopaceus	109	Small	100.00	109.00		114.00	119.00		119.00	4	1		9	33.3	0.0
+_N6035	Red knot	Calidris canutus	148	Small			148.00			206.00	206.00	4	1		4	0.0	0.0
+_N6036	White-rumped sandpiper	Calidris fuscicollis	49	Small	46.90	48.90						4	1		9	11.1	0.0
+_N6037	Black turnstone	Arenaria melanocephala	135	Small	118.00	135.00		134.00	169.00		169.00	4	1		1	0.0	0.0
+_N6038	Marbled godwit	Limosa fedoa	391	Small	326.00	391.00		396.00	454.00		454.00	4	1		3	33.3	33.3
+_N6039	Wilson's snipe	Gallinago delicata	128	Small	128.00	116.00		156.00	156.00		156.00	4	1		86	8.1	5.8
+_N6040	Rock sandpiper	Calidris ptilocnemis	106	Small	86.80	106.00		105.00	130.00		130.00	4	1		1	100.0	0.0
+_N6041	South American snipe	Gallinago paraguaiae	113	Small	106.00	113.00		139.00	145.00		145.00	4	4		1	0.0	0.0
+_N6042	Stilt sandpiper	Calidris himantopus	61	Small	53.80	60.90		60.80	68.00		68.00	4	1		1	0.0	0.0
+_N61	Curlews	Numenius spp	483	Medium												0.0	0.0
+_N6101	Eurasian curlew	Numenius arquata	869	Medium	742.00	869.00		900.00	1050.00		1050.00	4	1		1	0.0	0.0
+_N6103	Whimbrel	Numenius phaeopus	404	Small	355.00	404.00		403.00	459.00		459.00	4	1		18	22.2	11.1
+_N6104	Long-billed curlew	Numenius americanus	642	Medium	531.00	642.00		597.00	689.00		689.00	4	1		7	14.3	14.3
+_N62	Phalaropes	Phalaropus spp	57	Small												0.0	0.0
+_N6201	Red-necked phalarope	Phalaropus lobatus	39	Small	34.50	39.00						4	1		10	40.0	20.0
+_N6202	Wilson's phalarope	Phalaropus tricolor	68	Small	51.80	68.10		62.00	85.00		85.00	4	1		14	50.0	21.4
+_N6203	Red phalarope	Phalaropus fulicarius	62	Small	49.70	62.20						4	1		1	0.0	0.0
+_N8	Avocets	stilts	Recurvirostridae	239	Small											0.0	0.0
+_N81	Avocets	Recurvirostra spp	307	Small												0.0	0.0
+_N8103	American avocet	Recurvirostra americana	307	Small	307.00	302.00		362.00	382.00		382.00	4	1		6	50.0	16.7
+_N82	Stilts	Recurvirostridae	170	Small												0.0	0.0
+_N8203	Black-necked stilt	Himantopus mexicanus	170	Small			170.00			202.00	202.00	4	1		9	33.3	0.0
+_N9	Stone-curlews	Burhinidae	394	Small												0.0	0.0
+_N9002	Eurasian thick-knee	Burhinus oedicnemus	459	Medium			459.00			535.00	535.00	4	1	Eurasian stone curlew		0.0	0.0
+_N9004	Double-striped thick-knee	Burhinus bistriatus	787	Medium	787.00							4	4		1	0.0	0.0
+_ND2	Jaegers	 skuas	Stercorarlinae	393	Small											0.0	0.0
+_ND201	Parasitic jaeger	Stercorarius parasiticus	478	Medium	413.00	478.00		523.00	604.00		604.00	4	1		2	0.0	0.0
+_ND202	Long-tailed jaeger	Stercorarius longicaudus	307	Small	270.00	307.00		320.00	444.00		444.00	4	1		4	0.0	0.0
+_NE	Gulls	terns	 kittiwakes	Laridae	794	Medium										0.0	0.0
+_NE1	Gulls	Larinae	803	Medium											6625	24.4	16.6
+_NE101	Herring gull	Larus argentatus	1147	Medium	1147.00	1023.00		1143.00	1385.00		1385.00	4	1		1229	10.8	9.7
+_NE102	Mew gull	Larus canus	432	Small	432.00	375.00		552.00	530.00		552.00	4	1		67	16.4	10.4
+_NE104	Ring-billed gull	Larus delawarensis	566	Medium	566.00	471.00		650.00	590.00		650.00	4	1		1548	17.1	7.9
+_NE106	Glaucous-winged gull	Larus glaucescens	1180	Medium	1180.00	946.00						4	1		127	11.8	18.9
+_NE108	Great black-backed gull	Larus marinus	1829	Large	1829.00	1488.00		2272.00	2085.00		2272.00	4	1		112	9.8	10.7
+_NE112	Franklin's gull	Leucophaeus pipixcan	280	Small			280.00			335.00	335.00	4	1		123	33.3	4.9
+_NE114	Laughing gull	Leucophaeus artricilla	327	Small	327.00	289.00		366.00	371.00		371.00	4	1		439	12.1	4.3
+_NE115	Bonaparte's gull	Chroicocephalus philadelphia	222	Small	222.00	200.00						4	1		45	24.4	4.4
+_NE117	Lesser black-backed gull	Larus fuscus	880	Medium	880.00	755.00		1000.00	908.00		1000.00	4	1		6	16.7	33.3
+_NE120	Western gull	Larus occidentalis	1136	Medium	1136.00	879.00						4	1		131	8.4	11.5
+_NE121	California gull	Larus californicus	841	Medium	841.00	710.00		1045.00	903.00		1045.00	4	1		178	11.8	10.7
+_NE122	Heermann's gull	Larus heermanni	500	Medium			500.00			643.00	643.00	4	1		1	100.0	0.0
+_NE136	Black-headed gull	Chroicocephalus ridibundus	284	Small			284.00			327.00	327.00	4	1		7	0.0	14.3
+_NE137	Thayer's gull	Larus thayeri	1021	Medium	1021.00	870.00		1100.00	900.00		1100.00	4	1		3	0.0	0.0
+_NE138	Yellow-legged gull	Larus michahellis	1275	Medium	1275.00	1033.00		1500.00	1400.00		1500.00	4	1		3	100.0	100.0
+_NE139	Glaucous gull	Larus hyperboreus	1855	Large	1855.00	1497.00		2060.00	1690.00		2060.00	4	1		19	15.8	10.5
+_NE2	Terns	Sterninae	229	Small											49	32.7	4.1
+_NE201	White-winged tern	Chlidonias leucopterus	54	Small			54.20			66.00	66.00	4	1	aka white-winged black tern	2	50.0	0.0
+_NE202	Little tern	Sternula albifrons	57	Small			57.00			63.00	63.00	4	1		2	50.0	0.0
+_NE203	Caspian tern	Hydroprogne caspia	655	Medium			655.00			782.00	782.00	4	1		24	4.2	4.2
+_NE204	Common tern	Sterna hirundo	120	Small			120.00			145.00	145.00	4	1		19	15.8	5.3
+_NE205	Sandwich tern	Thalasseus sandvicensis	208	Small			208.00			238.00	238.00	4	1		2	0.0	0.0
+_NE207	Gull-billed tern	Gelochelidon nilotica	170	Small			170.00			184.00	184.00	4	1		4	0.0	0.0
+_NE209	Black tern	Chlidonias niger	65	Small			65.30			74.10	74.10	4	1		2	0.0	0.0
+_NE210	Fairy tern	Sterna nerensis	72	Small			72.30			80.00	80.00	4	1		3	0.0	0.0
+_NE213	White tern	Gygis alba	111	Small			111.00			139.00	139.00	4	1		8	25.0	12.5
+_NE214	Arctic tern	Sterna paradisaea	110	Small			110.00			127.00	127.00	4	1		5	40.0	20.0
+_NE215	Roseate tern	Sterna dougallii	112	Small			112.00			128.00	128.00	4	1		1	0.0	0.0
+_NE216	Forster's tern	Sterna forsteri	149	Small			149.00			173.00	173.00	4	1		12	16.7	0.0
+_NE217	Least tern	Sternula antillarum	49	Small	46.90	49.30		54.00	62.00		62.00	4	1	7/25/12 updated genus	24	12.5	0.0
+_NE218	Black noddy	Anous minutus	116	Small			116.00			130.00	130.00	4	1		6	33.3	0.0
+_NE219	Brown noddy	Anous stolidus	189	Small			189.00			232.00	232.00	4	1		8	12.5	0.0
+_NE220	Royal tern	Thalasseus maximus	470	Medium			470.00					4	1		5	20.0	0.0
+_NE221	Sooty tern	Onychoprion fuscatus	175	Small			175.00			224.00	224.00	4	1		4	0.0	25.0
+_NE3	Kittiwakes	Rissa spp	406	Small												0.0	0.0
+_NE301	Black-legged kittiwake	Rissa tridactyla	421	Small	421.00	394.00		512.00	525.00		525.00	4	1		3	0.0	0.0
+_NE302	Red-legged kittiwake	Rissa brevirostris	377	Small			377.00			489.00	489.00	4	1		1	0.0	0.0
+_NF	Skimmers	Rynchopidae	349	Small												0.0	0.0
+_NF101	Black skimmer	Rynchops niger	349	Small	349.00	254.00		392.00	292.00		392.00	4	1		12	8.3	8.3
+_NG	Auks	 mures	 puffins	Alcidae	556	Medium										0.0	0.0
+_NG1	Auks	Alcidae	556	Medium												0.0	0.0
+_NG102	Pigeon guillemot	Cepphus columba	530	Medium			530.00					4	1		1	0.0	0.0
+_NG3	Puffins	Fratercula spp	556	Medium											1	0.0	0.0
+_NG302	Horned puffin	Fratercula corniculata	556	Medium	556.00	517.00						4	1			0.0	0.0
+_O	Pigeons	 sandgrouse	Columbiformes	185	Small											0.0	0.0
+_O2	Pigeons	 doves	Columbidae	185	Small										29	41.4	13.8
+_O21	Pigeons	Columbidae	370	Small											15	33.3	6.7
+_O2109	Common wood-pigeon	Columba palumbus	490	Medium			490.00			614.00	614.00	4	4		6	16.7	0.0
+_O2110	Band-tailed pigeon	Patagioenas fasciata	398	Small	398.00	386.00		515.00	470.00		515.00	4	1		19	15.8	31.6
+_O2111	Rock pigeon	Columba livia	369	Small	369.00	340.00						4	3		2923	30.9	8.5
+_O2112	Picazuro pigeon	Columba picazuro	279	Small			279.00			402.00	402.00	4			1	0.0	0.0
+_O22	Doves	Columbidae	121	Small											1048	22.9	4.4
+_O2203	Eurasian collared dove	Streptopelia decaocto	152	Small	152.00	146.00		184.00	176.00		184.00	4	3		23	17.4	0.0
+_O2205	Mourning dove	Zenaida macroura	123	Small	123.00	115.00						4	1		7652	15.3	2.4
+_O2211	Spotted dove	Streptopelia chinensis	159	Small			159.00			194.00	194.00	4	1		196	5.1	2.0
+_O2212	Zebra dove	Geopelia striata	57	Small			56.60			62.10	62.10	4	1		297	8.8	1.0
+_O2213	Inca dove	Columbina inca	48	Small			47.50			57.00	57.00	4	1		15	6.7	0.0
+_O2214	Island turtle-dove	Streptopelia bitorquata	153	Small			153.00			174.00	174.00	4	4	Philippine turtle dove	7	0.0	0.0
+_O2215	White-winged dove	Zenaida asiatica	153	Small			153.00			187.00	187.00	4	1		65	9.2	4.6
+_O2216	Common ground-dove	Columbina passerina	37	Small			37.00					4	1		7	0.0	0.0
+_O2217	Zenaida dove	Zenaida aurita	156	Small			156.00			205.00	205.00	4	1		4	0.0	25.0
+_O2218	Ruddy ground-dove	Columbina talpacoti	47	Small			46.50			56.50	56.50	4	1		1	0.0	0.0
+_P11	Parrots	Psittaciformes	58	Small											3	33.3	0.0
+_P1114	Budgerigar	Melopsittacus undulatus	29	Small	29.20	28.80						4	3		15	0.0	0.0
+_P1115	Monk parakeet	Myiopsitta monachus	120	Small			120.00					4	3		4	25.0	0.0
+_P1116	Olive-throated parakeet	Eupsittula nana	77	Small			76.90			84.00	84.00	4	4	Aztec parakeet	1	100.0	0.0
+_P1301	Nanday parakeet	Nandayus nenday	128	Small			128.00			141.00	141.00	4	3	black-hooded parakeet	3	0.0	0.0
+_Q	Cuckoos	 roadrunners	 anis	Cuculiformes	79	Small										0.0	0.0
+_Q2	Cuckoos	 roadrunners	Cuculidae	79	Small											0.0	0.0
+_Q21	Cuckoos	Cuculidae	66	Small											9	22.2	33.3
+_Q2101	Yellow-billed cuckoo	Coccyzus americanus	64	Small			64.00			84.60	84.60	4	1		41	9.8	14.6
+_Q2102	Common cuckoo	Cuculus canorus	117	Small	117.00	106.00						4	1		1	0.0	0.0
+_Q2104	Black-billed cuckoo	Coccyzus erythropthalmus	51	Small			50.90			65.40	65.40	4	1		5	0.0	0.0
+_Q2105	Philippine drongo-cuckoo	Surniculus velutinus	38	Small	33.20	38.20		42.00	47.00		47.00	4	4		1	0.0	0.0
+_Q22	Roadrunners	Geococcyx spp	376	Small											1	0.0	0.0
+_Q2201	Greater roadrunner	Geococcyx californianus	376	Small			376.00			538.00	538.00	4	1		1	0.0	0.0
+_R	Owls	Strigiformes	573	Medium											302	2.0	10.3
+_R1	Barn	 grass owls	Tytonidae	370	Small											0.0	0.0
+_R1101	Barn owl	Tyto alba	370	Small	330.00	370.00						4	1		1143	1.4	3.6
+_R2	Typical owls	Strigidae	806	Medium												0.0	0.0
+_R2001	Snowy owl	Bubo scandiacus	2279	Large	1806.00	2279.00		2041.00	2951.00		2951.00	4	1		208	0.5	8.7
+_R2002	Little owl	Athene noctua	164	Small			164.00			193.00	193.00	4	4		1	0.0	0.0
+_R2004	Short-eared owl	Asio flammeus	378	Small	315.00	378.00		368.00	475.00		475.00	4	1		475	0.6	2.1
+_R2005	Long-eared owl	Asio otus	337	Small	261.00	337.00		304.00	409.00		409.00	4	1		16	0.0	18.8
+_R2006	Boreal owl	Aegolius funereus	167	Small	117.00	167.00		139.00	215.00		215.00	4	1			0.0	0.0
+_R2007	Northern saw-whet owl	Aegolius acadicus	131	Small	77.40	131.00						4	1		7	0.0	14.3
+_R2008	Burrowing owl	Athene cunicularia	156	Small	146.00	156.00						4	1		201	1.0	1.0
+_R2009	Barred owl	Strix varia	801	Medium	632.00	801.00		774.00	1051.00		1051.00	4	1		27	0.0	3.7
+_R2010	Northern pygmy-owl	Glaucidium gnoma	73	Small	61.90	73.00		74.00	87.00		87.00	4	1		1	0.0	0.0
+_R2011	Great gray owl	Strix nebulosa	1267	Medium	890.00	1267.00		1050.00	1700.00		1700.00	4	1		2	0.0	0.0
+_R21	Scops	 screech owls	Megascops spp	211	Small											0.0	0.0
+_R2101	Eastern screech-owl	Megascops asio	194	Small	167.00	194.00		210.00	235.00		235.00	4	1		5	0.0	40.0
+_R2102	Western screech-owl	Megascops kennicottii	236	Small	192.00	236.00		230.00	305.00		305.00	4	1		2	0.0	0.0
+_R2203	Great horned owl	Bubo virginianus	1555	Large	1154.00	1555.00		1460.00	2046.00		2046.00	4	1		230	0.9	13.9
+_R2303	Northern hawk-owl	Surnia ulula	340	Small	301.00	340.00		375.00	454.00		454.00	4	1		1	0.0	0.0
+_S	Goatsuckers	 nightjars	 frogmouths	Caprimulgiformes	78	Small										0.0	0.0
+_S5	Goatsuckers	 nightjars	Caprimulgidae	78	Small											0.0	0.0
+_S52	Nightjars	Caprimulgidae	78	Small											10	0.0	0.0
+_S5204	Whip-poor-will	Antrostomus vociferus	57	Small	50.30	56.50						4	1		8	25.0	0.0
+_S5210	Common poorwill	Phalaenoptilus nuttallii	50	Small	47.20	49.50						4	1		11	9.1	0.0
+_S5211	Lesser nighthawk	Chordeiles acutipennis	50	Small			49.90			64.00	64.00	4	1		12	0.0	0.0
+_S5212	Chuck-will's-widow	Antrostomus carolinensis	109	Small			109.00			188.00	188.00	4	1		12	0.0	0.0
+_S5213	Common nighthawk	Chordeiles minor	79	Small			79.30					4	1		527	4.9	0.6
+_S5214	Common pauraque	Nyctidromus albicollis	53	Small			53.00					4	1		10	0.0	0.0
+_S5215	Nacunda nighthawk	Chordeiles nacunda	159	Small			159.00			188.00	188.00	4	4		1	0.0	0.0
+_S5216	Antillean nighthawk	Chordeiles gundlachii	50	Small			50.00					4	1	added 12/3/15 prm	1	0.0	0.0
+_T	Swift	 tree-swift	 hummingbird	Apodiformes	22	Small										0.0	0.0
+_T1	Swifts	Apodidae	23	Small											15	20.0	6.7
+_T1001	Black swift	Cypseloides niger	46	Small	45.60					52.50	52.50	4	1		3	0.0	0.0
+_T1002	Chimney swift	Chaetura pelagica	24	Small			23.60			29.80	29.80	4	1		525	9.1	1.3
+_T1006	Common swift	Apus apus	38	Small			37.60			43.00	43.00	4	1		8	12.5	12.5
+_T1007	Vaux's swift	Chaetura vauxi	17	Small			17.10			20.90	20.90	4	1		46	0.0	0.0
+_T1009	White-throated swift	Aeronautes saxatalis	32	Small			32.10			36.00	36.00	4	1		44	2.3	2.3
+_T3	Hummingbirds	Trochilidae	3	Small											1	0.0	0.0
+_T3001	Ruby-throated hummingbird	Archilochus colubris	3	Small	2.90	3.30		3.70	4.10		4.10	4	1		21	0.0	0.0
+_T3002	Rufous hummingbird	Selasphorus rufus	4	Small			3.50			4.50	4.50	4	1		8	12.5	0.0
+_T3003	Anna's hummingbird	Calypte anna	5	Small	4.50	4.00		6.30	5.60		6.30	4	1		9	0.0	0.0
+_T3004	Black-chinned hummingbird	Archilochus alexandri	4	Small	3.20	3.60		4.80	5.10		5.10	4	1		2	0.0	0.0
+_T3005	Allen's hummingbird	Selasphorus sasin	3	Small	3.10	3.20		3.80	3.50		3.80	4	1		1	0.0	0.0
+_T3006	Calliope hummingbird	Selasphorus calliope	3	Small	2.50	2.80		3.20	3.20		3.20	4	1		1	0.0	0.0
+_UNKB	Unknown bird	Aves													6576	5.4	7.2
+_UNKBB	Unknown bird or bat	Aves/Chiroptera													97	2.1	3.1
+_UNKBL	Unknown bird - large	Aves	2302	Large											2812	10.4	38.3
+_UNKBM	Unknown bird - medium	Aves	745	Medium											34799	7.8	11.6
+_UNKBS	Unknown bird - small	Aves	134	Small											33474	13.0	2.9
+_W	Kingfishers 	motmots	 hornbills	Coraciiformes	148	Small										0.0	0.0
+_W1	Kingfishers	Alcedinidae	148	Small												0.0	0.0
+_W1001	Belted kingfisher	Megaceryle alcyon	148	Small			148.00			215.00	215.00	4	1		11	0.0	0.0
+_X	Woodpeckers	 toucans	 barbets	Piciformes	101	Small										0.0	0.0
+_X6	Woodpeckers	 piculets	Picidae	101	Small											0.0	0.0
+_X61	Woodpeckers	Picidae	101	Small											12	0.0	8.3
+_X6101	Northern flicker	Colaptes auratus	128	Small	128.00	125.00		143.00	137.00		143.00	4	1		106	1.9	7.5
+_X6102	Yellow-bellied sapsucker	Sphyrapicus varius	50	Small			50.30			62.20	62.20	4	1		66	7.6	9.1
+_X6103	Hairy woodpecker	Picoides villosus	79	Small	79.00	67.50						4	1		3	0.0	0.0
+_X6104	Red-naped sapsucker	Sphyrapicus nuchalis	45	Small			45.90			54.90	54.90	4	1		4	0.0	25.0
+_X6105	Downy woodpecker	Picoides pubescens	28	Small	27.50	25.90		29.10	28.50		29.10	4	1		4	0.0	0.0
+_X6106	Red-bellied woodpecker	Melanerpes carolinus	73	Small	73.20	66.00						4	1		2	0.0	0.0
+_X6107	Red-breasted sapsucker	Sphyrapicus ruber	58	Small	58.30	57.70						4	1		2	0.0	0.0
+_X6108	Red-headed woodpecker	Melanerpes erythrocephalus	72	Small			71.60			90.50	90.50	4	1		1	0.0	0.0
+_Y	Perching birds (y)	Passeriformes	63	Small											737	6.8	3.3
+_Y9	Tyrant flycatchers	Tyrannidae	37	Small											36	16.7	0.0
+_Y9001	Eastern wood-pewee	Contopus virens	14	Small			13.90			15.40	15.40	4	1		11	36.4	0.0
+_Y9002	Gray kingbird	Tyrannus dominicensis	47	Small			46.50			69.00	69.00	4	1	added 12/3/15 PRM	3	0.0	0.0
+_Y9003	Great crested flycatcher	Myiarchus crinitus	32	Small			32.10			40.10	40.10	4	1		10	0.0	0.0
+_Y9004	Eastern kingbird	Tyrannus tyrannus	43	Small	42.80	41.60		54.70	45.80		54.70	4	1		42	2.4	2.4
+_Y9005	Scissor-tailed flycatcher	Tyrannus forficatus	39	Small			39.30					4	1		198	5.6	0.5
+_Y9006	Acadian flycatcher	Empidonax virescens	13	Small			12.60			13.80	13.80	4	1		4	0.0	0.0
+_Y9007	Say's phoebe	Sayornis saya	21	Small			20.90			24.10	24.10	4	1		6	0.0	0.0
+_Y9008	Western kingbird	Tyrannus verticalis	40	Small			39.60			44.10	44.10	4	1		257	6.6	1.2
+_Y9009	Ash-throated flycatcher	Myiarchus cinerascens	28	Small			28.20			37.80	37.80	4	1		4	0.0	0.0
+_Y9010	Great kiskadee	Pitangus sulphuratus	74	Small			74.00					4	1		1	0.0	0.0
+_Y9011	Western wood-pewee	Contopus sordidulus	13	Small			13.10			14.90	14.90	4	1		4	0.0	0.0
+_Y9012	Sulphur-bellied flycatcher	Myiodynastes luteiventris	47	Small			46.90			57.40	57.40	4	1		1	0.0	0.0
+_Y9013	Eastern phoebe	Sayornis phoebe	20	Small			19.70			23.20	23.20	4	1		21	9.5	0.0
+_Y9014	Yellow-bellied flycatcher	Empidonax flaviventris	12	Small			11.80			15.50	15.50	4	1		10	20.0	0.0
+_Y9016	Least flycatcher	Empidonax minimus	10	Small			10.00			12.20	12.20	4	1		10	0.0	0.0
+_Y9017	Hammond's flycatcher	Empidonax hammondii	11	Small	10.60	10.30		12.10	12.90		12.90	4	1		6	0.0	0.0
+_Y9018	Pacific-slope flycatcher	Empidonax difficilis	11	Small			10.70			14.30	14.30	4	1		17	5.9	0.0
+_Y9019	Gray flycatcher	Empidonax wrightii	12	Small			12.30			13.60	13.60	4	1		3	33.3	0.0
+_Y9021	White-crested elaenia	Elaenia albiceps	18	Small			15.50			17.80	17.80	4	4		1	0.0	0.0
+_Y9022	Willow flycatcher	Empidonax traillii	14	Small	13.10	13.70		15.70	16.40		16.40	4	1		4	25.0	0.0
+_Y9023	Alder flycatcher	Empidonax alnorum	13	Small			12.70			14.50	14.50	4	1		11	0.0	9.1
+_Y9024	Cordilleran flycatcher	Empidonax occidentalis	12	Small			11.60			15.00	15.00	4	1		2	0.0	0.0
+_Y9025	Dusky flycatcher	Empidonax oberholseri	10	Small			10.40			11.40	11.40	4	1		1	0.0	0.0
+_YH	Larks	Alaudidae	32	Small											1	0.0	0.0
+_YH002	Eurasian skylark	Alauda arvensis	43	Small	42.70	37.20		51.00	47.00		51.00	4	1	Changed from Sky lark to Eurasian skylark per RD on 2/27/15	84	4.8	0.0
+_YH004	Horned lark	Eremophila alpestris	32	Small			32.20					4	1		3759	16.2	0.5
+_YI	Swallows	Hirundinidae	20	Small											1009	30.2	0.7
+_YI001	Purple martin	Progne subis	54	Small	53.50	54.10						4	1		172	23.8	5.8
+_YI003	Bank swallow	Riparia riparia	14	Small	13.00	13.90		16.40	18.80		18.80	4	1		382	36.9	0.5
+_YI005	Barn swallow	Hirundo rustica	19	Small	18.10	19.20						4	1		4106	18.4	0.4
+_YI009	Cliff swallow	Petrochelidon pyrrhonota	22	Small			21.60			26.70	26.70	4	1		1374	15.9	0.2
+_YI010	Tree swallow	Tachycineta bicolor	21	Small			21.20			25.50	25.50	4	1		655	26.0	0.0
+_YI011	Violet-green swallow	Tachycineta thalassina	14	Small	14.40	13.90		16.30	15.20		16.30	4	1		24	4.2	4.2
+_YI012	Northern rough-winged swallow	Stelgidopteryx serripennis	16	Small			15.90			18.30	18.30	4	1		64	9.4	1.6
+_YI013	Cave swallow	Petrochelidon fulva	24	Small			24.20					4	1		13	38.5	0.0
+_YJ	Drongos	Dicruridae	48	Small												0.0	0.0
+_YJ001	Black drongo	Dicrurus macrocerus	48	Small			48.30			59.00	59.00	4			12	16.7	0.0
+_YL	Starlings	Sturnidae	87	Small												0.0	0.0
+_YL001	European starling	Sturnus vulgaris	88	Small	87.60	84.40		100.00	92.00		100.00	4	3		3942	34.3	3.3
+_YL1	Mynas	Sturnidae	127	Small												0.0	0.0
+_YL101	Common myna	Acridotheres tristis	127	Small	127.00	114.00		140.00	129.00		140.00	4	1		99	25.3	2.0
+_YM	Crows	 ravens	 jays	magpies	Corvidae	545	Medium									0.0	0.0
+_YM1	Crows	 ravens	Corvidae	536	Medium										2	50.0	50.0
+_YM11	Crows	Corvus spp	536	Medium											197	17.3	10.7
+_YM1102	American crow	Corvus brachyrhynchos	538	Medium	538.00	474.00						4	1		440	10.5	7.3
+_YM1103	Carrion crow	Corvus corone	570	Medium			570.00					4	4		2	0.0	0.0
+_YM1104	Hooded crow	Corvus cornix	570	Medium			570.00					4	4		1	0.0	100.0
+_YM1108	Northwestern crow	Corvus caurinus	415	Small	415.00	368.00		486.00	421.00		486.00	4	1		7	14.3	0.0
+_YM1109	Rook	Corvus frugilegus	489	Medium	489.00	418.00		560.00	525.00		560.00	4	4		1	0.0	0.0
+_YM12	Ravens	Corvus spp	1097	Medium											1	0.0	100.0
+_YM1201	Common raven	Corvus corax	1097	Medium			1097.00			1097.00	1097.00	4	1		43	9.3	23.3
+_YM2	Jays	Corvidae	87	Small												0.0	0.0
+_YM201	Blue jay	Cyanocitta cristata	88	Small			88.00			101.00	101.00	4	1		26	3.8	0.0
+_YM203	Gray jay	Perisoreus canadensis	76	Small	75.80	67.60		82.00	72.50		82.00	4	1		1	0.0	0.0
+_YM4	Magpies	Corvidae	182	Small											1	0.0	0.0
+_YM402	Yellow-billed magpie	Pica nuttalli	174	Small	174.00	144.00		189.00	158.00		189.00	4	1		8	25.0	0.0
+_YM403	Black-billed magpie	Pica hudsonia	189	Small	189.00	166.00		209.00	197.00		209.00	4	1		12	25.0	25.0
+_YR	Titmice	chickadees	Paridae	10	Small											0.0	0.0
+_YR1	Titmice	Baeolophus spp	21	Small												0.0	0.0
+_YR101	Tufted titmouse	Baeolophus bicolor	22	Small			21.60			26.10	26.10	4	1			0.0	0.0
+_YR2	Chickadees	Poecile spp	10	Small											1	0.0	0.0
+_YR201	Black-capped chickadee	Poecile atricapillus	11	Small			10.80			12.90	12.90	4	1		23	26.1	4.3
+_YR202	Mountain chickadee	Poecile gambeli	12	Small	11.70	11.10		14.30	14.50		14.50	4	1		1	100.0	0.0
+_YR203	Gray-headed chickadee	Poecile cinctus	11	Small			11.40			13.00	13.00	4	1		1	100.0	0.0
+_YR204	Carolina chickadee	Poecile carolinensis	10	Small	10.10	9.90						4	1		2	50.0	0.0
+_YR4	Bushtits	Aegthalidae	5	Small												0.0	0.0
+_YR401	Bushtit	Psaltriparus minimus	5	Small			5.30			6.00	6.00	4	1		2	0.0	0.0
+_YS	Nuthatches and creepers	PasseriformeS	23	Small												0.0	0.0
+_YS1	Nuthatches	Sittidae	23	Small												0.0	0.0
+_YS101	White-breasted nuthatch	Sitta carolinensis	21	Small			21.00			23.20	23.20	4	1		2	0.0	0.0
+_Z	Perching birds (z)	Passeriformes	63	Small												0.0	0.0
+_Z1	Bulbuls	Pycnonotidae	45	Small												0.0	0.0
+_Z1001	Red-vented bulbul	Pycnonotus cafer	46	Small	45.80	40.10		58.50	51.50		58.50	4	1		4	25.0	0.0
+_Z4	Wrens	Troglodytidae	14	Small											50	18.0	2.0
+_Z4001	Marsh wren	Cistothorus palustris	12	Small	11.90	10.60		13.50	13.50		13.50	4	1		20	5.0	5.0
+_Z4003	House wren	Troglodytes aedon	11	Small	10.80	11.10		12.10	13.10		13.10	4	1		36	2.8	2.8
+_Z4004	Carolina wren	Thryothorus ludovicianus	21	Small	21.20	18.70		27.00	21.50		27.00	4	1		6	16.7	0.0
+_Z4005	Rock wren	Salpinctes obsoletus	17	Small			16.50					4	1		2	0.0	0.0
+_Z4006	Cactus wren	Campylorhynchus brunneicapillus	39	Small			38.90			46.90	46.90	4	1		4	0.0	0.0
+_Z4007	Winter wren	Troglodytes hiemalis	9	Small	9.40	9.10		11.60	10.90		11.60	4	1		9	0.0	0.0
+_Z4008	Bewick's wren	Thryomanes bewickii	10	Small			9.90			11.80	11.80	4	1		2	0.0	0.0
+_Z4009	Sedge wren	Cistothorus platensis	8	Small	8.20	7.70		8.90	8.90		8.90	4	1		3	0.0	0.0
+_Z5	Thrashers	 mockingbirds	 catbirds	Mimidae	45	Small										0.0	0.0
+_Z51	Thrashers	Mimidae	69	Small												0.0	0.0
+_Z5101	Brown thrasher	Toxostoma rufum	69	Small			68.80			89.00	89.00	4	1		20	5.0	5.0
+_Z5102	Sage thrasher	Oreoscoptes montanus	44	Small			44.20			50.20	50.20	4	1		2	0.0	0.0
+_Z5103	Curve-billed thrasher	Toxostoma curvirostre	81	Small	80.90	75.80		93.60	84.00		93.60	4	1		1	0.0	0.0
+_Z5104	Long-billed thrasher	Toxostoma longirostre	68	Small			67.60					4	1		1	100.0	0.0
+_Z52	Mockingbirds	Mimidae	48	Small											2	50.0	0.0
+_Z5201	Northern mockingbird	Mimus polyglottos	49	Small			48.50			55.70	55.70	4	1		101	2.0	2.0
+_Z5202	Tropical mockingbird	Mimus gilvus	58	Small			58.40			66.00	66.00	4	1		1	0.0	0.0
+_Z53	Catbirds	Mimidae	35	Small												0.0	0.0
+_Z5301	Gray catbird	Dumetella carolinensis	35	Small			35.30			43.50	43.50	4	1		130	6.9	0.0
+_Z6	Thrushes	Turdidae	67	Small											44	4.5	6.8
+_Z6001	Western bluebird	Sialia mexicana	27	Small	25.80	27.10		28.50	31.50		31.50	4	1		6	0.0	16.7
+_Z6004	Swainson's thrush	Catharus ustulatus	30	Small			30.30			36.10	36.10	4	1		161	8.7	7.5
+_Z6005	Redwing	Turdus iliacus	61	Small			61.20			80.00	80.00	4	1		1	0.0	0.0
+_Z6006	Eurasian blackbird	Turdus merula	113	Small			113.00			149.00	149.00	4	4			0.0	0.0
+_Z6007	American robin	Turdus migratorius	79	Small			78.50			112.00	112.00	4	1		1000	7.1	7.2
+_Z6008	Song thrush	Turdus philomelos	69	Small	68.90	66.60		89.00	89.00		89.00	4	4		1	100.0	0.0
+_Z6014	Hermit thrush	Catharus guttatus	30	Small			30.10			36.40	36.40	4	1		162	4.9	3.1
+_Z6015	Eastern bluebird	Sialia sialis	28	Small			27.50			38.00	38.00	4	1		11	9.1	0.0
+_Z6016	Gray-cheeked thrush	Catharus minimus	33	Small	32.60	30.60		44.60	43.40		44.60	4	1		21	14.3	0.0
+_Z6017	Varied thrush	Ixoreus naevius	80	Small	78.40	80.30		100.00	99.50		100.00	4	1		49	14.3	20.4
+_Z6018	Wood thrush	Hylocichla mustelina	53	Small	47.80	52.50		62.00	76.00		76.00	4	1		32	15.6	3.1
+_Z6021	Mountain bluebird	Sialia currucoides	30	Small			29.60					4	1		29	13.8	0.0
+_Z6022	Veery	Catharus fuscescens	32	Small			31.90			37.10	37.10	4	1		17	0.0	0.0
+_Z8006	Wrentit	Chamaea fasciata	15	Small	15.30	14.20		18.00	17.00		18.00	4	1		1	0.0	0.0
+_Z8007	Blue-gray gnatcatcher	Polioptila caerulea	6	Small			5.80			6.60	6.60	4	1		20	10.0	0.0
+_Z9001	Golden-crowned kinglet	Regulus satrapa	6	Small	6.30	6.10		7.70	7.80		7.80	4	1		27	7.4	0.0
+_Z9002	Ruby-crowned kinglet	Regulus calendula	7	Small	6.50	5.90		7.10	6.80		7.10	4	1		83	7.2	0.0
+_ZC	Wagtails	pipits	Motacillidae	21	Small											0.0	0.0
+_ZC2	Pipits	Motacillidae	21	Small												0.0	0.0
+_ZC203	Meadow pipit	Anthus pratensis	18	Small	18.00					23.40	23.40	4	4		1	0.0	0.0
+_ZC204	American pipit	Anthus rubescens	22	Small	21.60	20.10		25.50	23.20		25.50	4	1		145	19.3	0.7
+_ZC205	Sprague's pipit	Anthus spragueii	26	Small			25.50			29.70	29.70	4	1		7	0.0	0.0
+_ZD	Waxwings	 silky-flycatchers	Bombycillidae	32	Small											0.0	0.0
+_ZD1	Waxwings	Bombycilla spp	32	Small												0.0	0.0
+_ZD101	Bohemian waxwing	Bombycilla garrulus	56	Small			56.40			69.00	69.00	4	1		3	66.7	0.0
+_ZD102	Cedar waxwing	Bombycilla cedrorum	33	Small	30.60	32.60		39.90	39.60		39.90	4	1		194	21.6	3.6
+_ZH	Shrikes	Laniidae	47	Small												0.0	0.0
+_ZH001	Northern shrike	Lanius excubitor	63	Small			63.40			81.00	81.00	4	1		1	0.0	0.0
+_ZH002	Loggerhead shrike	Lanius ludovicainus	48	Small			47.70			58.50	58.50	4	1		23	4.3	0.0
+_ZL	Vireos	Vireonidae	15	Small											4	0.0	0.0
+_ZL001	White-eyed vireo	Vireo griseus	11	Small			11.40			14.30	14.30	4	1		7	14.3	0.0
+_ZL002	Blue-headed vireo	Vireo solitarius	15	Small			15.30			17.20	17.20	4	1		10	20.0	0.0
+_ZL003	Yellow-throated vireo	Vireo flavifrons	18	Small			18.00			21.40	21.40	4	1		3	0.0	0.0
+_ZL004	Warbling vireo	Vireo gilvus	14	Small			13.50			18.40	18.40	4	1		25	4.0	4.0
+_ZL005	Red-eyed vireo	Vireo olivaceus	17	Small			16.80			21.00	21.00	4	1		106	7.5	1.9
+_ZL006	Cassin's vireo	Vireo cassinii	15	Small			14.70			20.60	20.60	4	1		3	0.0	0.0
+_ZL007	Philadelphia vireo	Vireo philadelphicus	12	Small			11.50			12.70	12.70	4	1		5	0.0	0.0
+_ZQ002	Japanese white-eye	Zosterops japonicus	11	Small			11.10					4	4		2	0.0	0.0
+_ZS	Wood warblers	Parulidae	11	Small											83	9.6	1.2
+_ZS001	Canada warbler	Cardellina canadensis	10	Small	10.30	9.80		11.70	11.40		11.70	4	1		19	0.0	0.0
+_ZS002	Yellow-breasted chat	Icteria virens	25	Small	24.40	25.40		25.80	27.70		27.70	4	1		13	7.7	0.0
+_ZS003	Pine warbler	Setophaga pinus	12	Small			12.30			17.00	17.00	4	1		19	10.5	0.0
+_ZS004	Black-and-white warbler	Mniotilta varia	11	Small			10.90			12.90	12.90	4	1		26	3.8	0.0
+_ZS005	Northern parula	Setophaga americana	9	Small			8.60			10.20	10.20	4	1		15	6.7	0.0
+_ZS006	Ovenbird	Seiurus aurocapilla	19	Small			18.80			21.40	21.40	4	1		64	4.7	1.6
+_ZS007	Wilson's warbler	Cardellina pusilla	7	Small	7.00	6.70		7.00	7.10		7.10	4	1		53	1.9	0.0
+_ZS008	Common yellowthroat	Geothlypis trichas	10	Small	9.70	9.20		12.20	11.50		12.20	4	1		80	5.0	1.2
+_ZS009	Yellow-rumped warbler	Setophaga coronata	12	Small	12.20	11.40		14.70	13.60		14.70	4	1		191	6.3	0.0
+_ZS010	Blackpoll warbler	Setophaga striata	12	Small	12.30	11.40		13.30	12.50		13.30	4	1		55	7.3	0.0
+_ZS011	Mourning warbler	Geothlypis philadelphia	12	Small	12.00	11.50		13.60	13.00		13.60	4	1		6	0.0	0.0
+_ZS012	American redstart	Setophaga ruticilla	8	Small	8.40	8.10		10.20	10.00		10.20	4	1		37	8.1	2.7
+_ZS013	Orange-crowned warbler	Oreothlypis celata	9	Small			9.00			11.60	11.60	4	1		25	0.0	0.0
+_ZS014	Yellow warbler	Setophaga petechia	10	Small	9.60	9.20		11.50	11.10		11.50	4	1		48	8.3	4.2
+_ZS015	Cape May warbler	Setophaga tigrina	10	Small	10.30	9.80		12.70	10.90		12.70	4	1		3	0.0	0.0
+_ZS016	Hooded warbler	Setophaga citrina	11	Small	10.80	10.30		12.50	12.80		12.80	4	1		2	0.0	50.0
+_ZS017	Prairie warbler	Setophaga discolor	8	Small	8.00	7.30		10.10	10.80		10.80	4	1		7	0.0	0.0
+_ZS018	Northern waterthrush	Seiurus noveboracensis	16	Small			16.30			19.60	19.60	4	1	formerly Parkesia	33	6.1	0.0
+_ZS019	Nashville warbler	Oreothlypis ruficapilla	8	Small	8.30	7.90		9.60	9.10		9.60	4	1		27	7.4	0.0
+_ZS020	Townsend's warbler	Setophaga townsendi	9	Small	9.10	8.60		10.40	10.70		10.70	4	1		18	5.6	0.0
+_ZS021	Louisiana waterthrush	Parkesia motacilla	20	Small			19.90			23.00	23.00	4	1			0.0	0.0
+_ZS023	Palm warbler	Setophaga palmarum	10	Small			10.30			12.90	12.90	4	1		44	9.1	0.0
+_ZS024	Magnolia warbler	Setophaga magnolia	8	Small	8.40	7.90		10.30	9.70		10.30	4	1		30	6.7	0.0
+_ZS025	Black-throated blue warbler	Setophaga caerulescens	11	Small	10.50	9.80		12.40	12.10		12.40	4	1		22	0.0	0.0
+_ZS026	Prothonotary warbler	Protonotaria citrea	14	Small			14.30					4	1		2	0.0	0.0
+_ZS027	MacGillivray's warbler	Geothlypis tolmiei	10	Small			10.40			12.60	12.60	4	1		6	0.0	0.0
+_ZS028	Yellow-throated warbler	Setophaga dominica	10	Small	9.90	9.50		10.80	10.50		10.80	4	1		21	14.3	0.0
+_ZS029	Black-throated gray warbler	Setophaga nigrescens	9	Small			8.70			9.80	9.80	4	1		2	0.0	0.0
+_ZS030	Black-throated green warbler	Setophaga virens	9	Small	8.90	8.50		10.10	9.50		10.10	4	1		14	7.1	0.0
+_ZS031	Hermit warbler	Setophaga occidentalis	10	Small				10.40		12.80	12.80	4	1		1	0.0	0.0
+_ZS032	Tennessee warbler	Oreothlypis peregrina	9	Small			8.90			14.00	14.00	4	1		24	12.5	0.0
+_ZS033	Chestnut-sided warbler	Setophaga pensylvanica	10	Small	9.50	9.10		10.90	10.40		10.90	4	1		11	9.1	0.0
+_ZS034	Blackburnian warbler	Setophaga fusca	10	Small	10.00	9.50						4	1		9	0.0	0.0
+_ZS035	Bay-breasted warbler	Setophaga castanea	12	Small			11.80			13.80	13.80	4	1		6	16.7	0.0
+_ZS036	Connecticut warbler	Oporornis agilis	13	Small			13.30			15.50	15.50	4	1		1	0.0	0.0
+_ZS037	Kentucky warbler	Geothlypis formosus	14	Small			14.00			16.90	16.90	4	1		14	14.3	0.0
+_ZS038	Worm-eating warbler	Helmitheros vermivorus	15	Small	13.20	15.20		14.70	17.40		17.40	4	1		3	0.0	33.3
+_ZS039	Blue-winged warbler	Vermivora pinus	9	Small						10.30	10.30	4	1		1	0.0	0.0
+_ZT	Blackbirds	 meadowlarks	 orioles	Icteridae	91	Small									1	0.0	100.0
+_ZT000	Meadowlarks	Sturnella spp	112	Small											535	9.0	0.6
+_ZT001	Eastern meadowlark	Sturnella magna	112	Small	112.00	90.30		131.00	94.20		131.00	4	1		1715	8.3	0.5
+_ZT002	Western meadowlark	Sturnella neglecta	112	Small	112.00	89.40						4	1		1112	10.6	1.5
+_ZT1	Blackbirds	Icteridae	58	Small											1276	28.6	6.3
+_ZT101	Red-winged blackbird	Agelaius phoeniceus	65	Small	65.30	39.50		72.10	42.70		72.10	4	1		332	13.0	1.5
+_ZT102	Yellow-headed blackbird	Xanthocephalus xanthocephalus	80	Small	79.70	49.30		85.50	56.00		85.50	4	1		15	13.3	13.3
+_ZT103	Brewer's blackbird	Euphagus cyanocephalus	67	Small	67.20	58.10		73.00	67.00		73.00	4	1		62	14.5	1.6
+_ZT104	Brown-headed cowbird	Molothrus ater	49	Small	48.70	38.10		57.30	42.30		57.30	4	1		221	24.9	0.9
+_ZT105	Bobolink	Dolichonyx oryzivorus	34	Small	33.90	29.20						4	1		30	10.0	0.0
+_ZT106	Rusty blackbird	Euphagus carolinus	64	Small	64.30	55.20		80.40	76.50		80.40	4	1		5	0.0	0.0
+_ZT107	Tricolored blackbird	Agelaius tricolor	68	Small	68.20	49.20		79.00	54.50		79.00	4	1		1	0.0	0.0
+_ZT2	Orioles	Icteridae	32	Small											4	0.0	0.0
+_ZT201	Baltimore oriole	Icterus galbula	34	Small	33.90	31.80		38.90	35.20		38.90	4	1		22	9.1	4.5
+_ZT202	Orchard oriole	Icterus spurius	19	Small	19.00		19.90	19.20		28.00	28.00	4	1		3	0.0	0.0
+_ZT203	Bullock's oriole	Icterus bullockii	38	Small			37.90			42.50	42.50	4	1		7	0.0	0.0
+_ZT204	Hooded oriole	Icterus cucullatus	24	Small			24.30			33.20	33.20	4	1		4	0.0	0.0
+_ZT3	Grackles	Quiscalus spp	149	Small											147	21.1	7.5
+_ZT301	Common grackle	Quiscalus quiscula	120	Small	120.00	92.20		142.00	124.00		142.00	4	1		161	21.1	4.3
+_ZT303	Boat-tailed grackle	Quiscalus major	206	Small	206.00	111.00		239.00	147.00		239.00	4	1		26	7.7	7.7
+_ZT304	Great-tailed grackle	Quiscalus mexicanus	222	Small	222.00	116.00		253.00	137.00		253.00	4	1		42	11.9	2.4
+_ZV	Tanagers	Thraupidae	28	Small												0.0	0.0
+_ZV001	Scarlet tanager	Piranga olivacea	28	Small			28.20			33.50	33.50	4	1		21	9.5	9.5
+_ZV002	Western tanager	Piranga ludoviciana	28	Small			28.10			34.50	34.50	4	1		14	7.1	7.1
+_ZV003	Summer tanager	Piranga rubra	30	Small			30.10			33.60	33.60	4	1		5	20.0	0.0
+_ZX	Finches	 cardinals	 buntings	 sparrows	Fringillidae	23	Small									0.0	0.0
+_ZX000	Finches	Fringillidae	21	Small											93	23.7	1.1
+_ZX002	Lapland longspur	Calcarius lapponicus	28	Small	27.40	28.30		30.70	35.00		35.00	4	1		61	37.7	1.6
+_ZX003	Chestnut-collared longspur	Calcarius ornatus	20	Small			20.30			22.10	22.10	4	1		2	0.0	0.0
+_ZX004	Dark-eyed junco	Junco hyemalis	19	Small	19.30	17.90		24.10	23.00		24.10	4	1		148	4.7	1.4
+_ZX005	Rose-breasted grosbeak	Pheucticus ludovicianus	42	Small			42.00			50.60	50.60	4	1		14	14.3	0.0
+_ZX006	Common Chaffinch	Fringilla coelebs	22	Small	21.90	20.90		28.50	20.90		28.50	4	1		2	0.0	0.0
+_ZX007	Island canary	Serinus canaria	24	Small	24.30			29.80			29.80	4	3	common canary	1	0.0	0.0
+_ZX010	Pine siskin	Spinus pinus	13	Small			12.70			14.70	14.70	4	1		21	42.9	9.5
+_ZX012	Common redpoll	Acanthis flammea	13	Small			13.00			15.00	15.00	4	1		2	0.0	0.0
+_ZX013	Purple finch	Haemorhous purpureus	23	Small			23.30			28.40	28.40	4	1		6	0.0	0.0
+_ZX014	Red crossbill	Loxia curvirostra	41	Small			40.60			48.00	48.00	4	1		3	33.3	0.0
+_ZX016	Evening grosbeak	Coccothraustes vespertinus	60	Small	60.10	59.00		71.70	71.70		71.70	4	1		1	0.0	0.0
+_ZX017	American goldfinch	Spinus tristis	13	Small	13.10	12.50		16.50	15.60		16.50	4	1		66	3.0	0.0
+_ZX018	House finch	Haemorhous mexicanus	21	Small			21.40			25.50	25.50	4	1		120	8.3	0.8
+_ZX019	Smith's longspur	Calcarius pictus	28	Small	28.10	25.30		32.00	29.00		32.00	4	1		7	14.3	0.0
+_ZX020	Dickcissel	Spiza americana	28	Small	28.10	23.30						4	1		19	15.8	5.3
+_ZX021	White-winged crossbill	Loxia leucoptera	26	Small	26.00	24.40						4	1		1	0.0	0.0
+_ZX022	Red avadavat	Amandava amandava	10	Small			9.60			9.80	9.80	4	3		7	42.9	0.0
+_ZX023	McCown's longspur	Rhynchophanes mccownii	27	Small	26.70	24.70						4	1		1	0.0	0.0
+_ZX024	Lesser goldfinch	Spinus psaltria	10	Small			9.50			11.50	11.50	4	1		4	0.0	0.0
+_ZX025	Black-headed grosbeak	Pheucticus melanocephalus	48	Small								4	1		6	0.0	0.0
+_ZX026	Cassin's finch	Haemorhous cassini	27	Small			26.50			37.80	37.80	4	1		1	0.0	0.0
+_ZX027	Pine grosbeak	Pinicola enucleator	56	Small			56.40			62.00	62.00	4	1		1	0.0	0.0
+_ZX028	Gray-crowned Rosy-Finch	Leucosticte tephrocotis	25	Small			24.60					4	1		1	0.0	0.0
+_ZX029	Blue grosbeak	Passerina caerulea	28	Small	27.80	27.00	28.00	40.50	32.50		40.50	4	1		5	0.0	0.0
+_ZX030	Hoary redpoll	Carduelis hornemanni	13	Small			12.70			16.10	16.10	4	1		2	50.0	0.0
+_ZX1	Cardinals	Emberizidae	42	Small												0.0	0.0
+_ZX101	Red-crested cardinal	Paroaria coronata	40	Small	39.90	35.80		44.00	37.00		44.00	4	3		6	16.7	0.0
+_ZX102	Northern cardinal	Cardinalis cardinalis	44	Small	43.50	41.80		52.20	47.50		52.20	4	1		13	0.0	0.0
+_ZX2	Buntings	Emberizidae	40	Small												0.0	0.0
+_ZX202	Snow bunting	Plectrophenax nivalis	42	Small			42.20			56.00	56.00	4	1		296	60.5	1.4
+_ZX203	Indigo bunting	Passerina cyanea	15	Small	15.00	14.40		17.50	18.50		18.50	4	1		27	7.4	0.0
+_ZX210	Lazuli bunting	Passerina amoena	16	Small	16.00	15.00		19.50	16.90		19.50	4	1		4	0.0	0.0
+_ZX211	Lark bunting	Calamospiza melanocorys	38	Small			37.60			51.50	51.50	4	1		123	15.4	0.8
+_ZX212	McKay's bunting	Plectrophenax hyperboreus	55	Small			54.50			62.00	62.00	4	1		1	100.0	0.0
+_ZX213	Painted bunting	Passerina ciris	13	Small	13.30	12.90		19.00	19.00		19.00	4	1		4	0.0	0.0
+_ZX214	Black-faced bunting	Emberiza spodocephala	20	Small			20.40			23.50	23.50	4	4	Japan	1	100.0	0.0
+_ZX3	Sparrows	Emberizidae	21	Small											3173	23.4	1.5
+_ZX301	Harris's sparrow	Zonotrichia querula	37	Small	37.40	33.70						4	1		6	16.7	0.0
+_ZX302	Swamp sparrow	Melospiza georgiana	16	Small			16.10			19.20	19.20	4	1		60	5.0	0.0
+_ZX303	Savannah sparrow	Passerculus sandwichensis	21	Small	20.60	19.50						4	1		494	5.7	1.0
+_ZX304	Fox sparrow	Passerella iliaca	35	Small			35.30			39.20	39.20	4	1		49	6.1	6.1
+_ZX305	White-throated sparrow	Zonotrichia albicollis	24	Small			24.40			30.40	30.40	4	1		209	10.0	1.4
+_ZX306	Golden-crowned sparrow	Zonotrichia atricapilla	32	Small	31.70	32.30						4	1		6	16.7	0.0
+_ZX307	Field sparrow	Spizella pusilla	13	Small			12.50			15.30	15.30	4	1		47	8.5	0.0
+_ZX308	Lark sparrow	Chondestes grammacus	29	Small			29.00			33.30	33.30	4	1		23	8.7	4.3
+_ZX309	White-crowned sparrow	Zonotrichia leucophrys	29	Small			29.40			38.50	38.50	4	1		77	5.2	5.2
+_ZX310	Grasshopper sparrow	Ammodramus savannarum	18	Small	17.20	18.40						4	1		76	3.9	2.6
+_ZX311	Java sparrow	Padda oryzivora	25	Small			24.80			27.80	27.80	4	1		3	33.3	0.0
+_ZX312	Vesper sparrow	Pooecetes gramineus	27	Small	26.50	24.90						4	1		50	10.0	2.0
+_ZX313	Chipping sparrow	Spizella passerina	12	Small			12.20			14.50	14.50	4	1		73	8.2	1.4
+_ZX314	Lincoln's sparrow	Melospiza lincolnii	17	Small			16.60			19.40	19.40	4	1		53	3.8	0.0
+_ZX315	Song sparrow	Melospiza melodia	21	Small	20.50	19.50		22.60	23.40		23.40	4	1		139	11.5	0.0
+_ZX316	Sage sparrow	Amphispiza belli	19	Small	18.50	17.70		21.90	20.90		21.90	4	1		7	0.0	0.0
+_ZX317	American tree sparrow	Spizella arborea	19	Small	18.60	17.10		27.70	20.80		27.70	4	1		26	7.7	0.0
+_ZX318	Nelson's sharp-tailed sparrow	Ammodramus nelsoni	17	Small			16.80			20.00	20.00	4	1		5	0.0	0.0
+_ZX319	Black-throated sparrow	Amphispiza bilineata	14	Small			13.50			16.40	16.40	4	1		1	0.0	0.0
+_ZX320	Brewer's sparrow	Spizella breweri	11	Small			10.90					4	1		13	7.7	0.0
+_ZX321	Le Conte's sparrow	Ammodramus leconteii	13	Small			13.00			16.00	16.00	4	1		4	0.0	0.0
+_ZX322	Cassin's sparrow	Peucaea cassinii	19	Small			18.90			23.50	23.50	4	1		3	0.0	0.0
+_ZX323	Clay-colored sparrow	Spizella pallida	11	Small			11.20			15.00	15.00	4	1		4	0.0	0.0
+_ZX324	Baird's sparrow	Ammodramus bairdii	18	Small			17.50			20.30	20.30	4	1		1	0.0	0.0
+_ZX4	Towhees	Pipilo spp	41	Small												0.0	0.0
+_ZX401	Eastern towhee	Pipilo erythrophthalmus	41	Small	41.30	38.80		46.60	44.80		46.60	4	1		25	4.0	4.0
+_ZX402	Green-tailed towhee	Pipilo chlorurus	30	Small			29.40			37.30	37.30	4	1		5	0.0	0.0
+_ZX403	California towhee	Melozone crissalis	54	Small	53.90	51.80		61.20	61.20		61.20	4	1		1	0.0	0.0
+_ZX404	Spotted towhee	Pipilo maculatus	39	Small			39.00			45.50	45.50	4	1		6	0.0	0.0
+_ZY	Waxbills	 mannikins	 parrotfinches	Estrildidae	13	Small									3	0.0	0.0
+_ZY004	Common waxbill	Estrilda astrild	9	Small			8.80			11.00	11.00	4	4		8	25.0	0.0
+_ZY1	Munias	Lonchura spp	13	Small										was Mannikins 7/31/15 changed was Estrildidae	122	10.7	0.0
+_ZY101	Scaly-breasted munia	Lonchura punctulata	14	Small			13.60			15.00	15.00	4	4	AKA nutmeg mannikin or munia 7/31/15 changed. Per SW	88	42.0	0.0
+_ZY102	Chestnut munia	Lonchura atricapilla	13	Small			12.60			14.40	14.40	4	4	chestnut mannikin	56	39.3	0.0
+_ZY103	White-throated munia	Lonchura malabarica	12	Small			12.00			14.00	14.00	4	4	aka Indian and warbling silverbill species changed from Lonchura oct 2010  & back 3/2012	5	80.0	0.0
+_ZZ	Weavers	 true sparrows	Ploceidae	28	Small											0.0	0.0
+_ZZ201	House sparrow	Passer domesticus	28	Small	28.00	27.40		34.00	34.50		34.50	4	3		236	10.2	1.3

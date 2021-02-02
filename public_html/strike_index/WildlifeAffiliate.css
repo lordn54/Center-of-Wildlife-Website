@@ -1,0 +1,208 @@
+/* Styles adapted for SITE NAME site only */
+
+#googleRight { 
+  position: absolute; right: 10px; top: 13px; margin: 0; padding: 0; 
+}
+
+#googleForm {
+  width: auto;
+  margin: 0px 0px 0px 0px;
+  background: transparent;
+  pading:0px 0px 0px 0px;
+ border: 0px;
+ }
+input.google[type="submit"]
+  {
+  width:60px;
+  border: 1px solid #000000;
+}
+input.google[type="text"]
+  {
+  width:150px;
+}
+
+
+
+#subMenuContainer{
+  /*position: absolute; top: 60px;*/
+  width: 950px;
+  background:white; /*#d4dff2; */
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+#subMenu{
+  position: absolute; 
+   min-width: 950px;
+  background-color: white; /*2E5598;*/ /*dark blue #213D7C; */
+  height: 25px; 
+  z-index:2;
+  color:white;
+
+        border-width:1px;
+        border-style:solid;
+        border-color:white; /*#5f5f5f; */
+        /* -moz-border-radius:5px;-webkit-border-radius:5px;*/
+        border-radius:5px;
+
+}
+#subMenu a{
+  color:black; /*#ffffff;*/ /*white*/
+  text-decoration:none;
+  font-weight:bold;
+font-family: arial, Georgia, Palatino, Times, serif;
+  font-size:90%;
+}
+
+#subMenu a.active{
+  color: #f1b228; /*tanish gold*/  /* #f1b228; gold*/
+  font-weight:bold;
+  text-decoration:none;
+  font-family: arial, Georgia, Palatino, Times, serif;
+  font-size:90%;
+}
+
+
+ul#css3menu1 a.active{  /*blue color of currently active tab*/
+    background-image: url("pics/blueButton.png");
+    background-color: #213D7C;
+    color: #ffffff;
+}
+
+.white{
+  color:#ffffff;
+  font-weight: bold;
+}
+
+.black{
+  font-size:.875em;
+  color:black;
+}
+
+
+.green{
+  font-size:.875em;
+  color:#006600; /*green*/
+}
+
+
+table.topLinks, table.topLinks th, table.topLinks td {
+  width: 100%;
+  border:0;
+}
+
+table.topLinks td{
+  text-align: center;
+} 
+
+
+table.topLinks a{
+  color:black; /*#ffffff;*/ /*white*/
+  text-decoration:none;
+  font-weight:bold;
+font-family: Arial, Helvetica, Times, serif;
+  font-size:12px;
+}
+
+table.topLinks a.active{
+  color: #f1b228; /*tanish gold*/  /* #f1b228; gold*/
+  font-weight:bold;
+  text-decoration:none;
+  font-family: Arial, Helvetica, Times, serif;
+  font-size:12px;
+}
+
+
+/*table formating for strikesByAirport.php */
+table.noborder, table.noborder th, table.noborder tr, table.noborder td, form.noborder  {
+  border: 0;
+}
+
+/*table formating for white border lines */
+table.whiteborder, table.whiteborder th, table.whiteborder tr, table.whiteborder td, form.whiteborder  {
+  border: 5px solid white;
+  padding: 5px;
+  background: url("pics/role-nav-bg2.jpg");
+
+}
+
+table.greenTable, table.greenTable th, table.greenTable tr, table.greenTable td{
+  border: 1px solid black;
+  font-size:12px;
+}
+
+table.greenTable th{
+  background-color:green;
+  color:white;
+}
+
+table.greenTable tr.alt td{
+  color:#000;
+  background-color:#EAF2D3;
+}
+
+
+input.airport[type="submit"], input.airport[type="button"]
+  {
+  width:80px;
+  height:19px;
+  border: 1px solid #000000;
+}
+input.airport[type="text"]
+  {
+  width:150px;
+}
+
+/* left alignment for numeric values in table speciesRpt.php */
+.rightAlignTD {
+
+ text-align: right;
+}
+/* used on birdBandRpt.php */
+a.whiteLinks {
+  font-size:12px;
+  color:white;
+}
+
+table.centerGreen {
+    border: 1px solid black;
+    width:90%;
+    margin-right:5%;
+    margin-left:5%;
+}
+table.centerGreen th {
+    background-color: #006600;
+    color:white;
+    vertical-align: bottom;
+    border: 1px solid black;
+}
+table.centerGreen td, table.center tr{
+    vertical-align:middle;
+   border: 1px solid black;
+}
+table.subscript {
+    border: 0;
+    width:88%;
+    margin-right:6%;
+    margin-left:6%;
+}
+table.subscript td{
+  border:0;
+  font-family: arial, Georgia, Palatino, Times, serif;
+  font-size:90%;
+}
+table.subscript p{
+
+    line-height: 100%;
+}
+#header_extender3 {
+/*  position: absolute; top: 160px;*/
+  width: 960px;
+/*  width: 100%;
+  background:#fff; /*A0A0A0;light grey*/ /* light gold #fcecca;*/ /*black;*/
+}
+li,ul li { list-style: url(http://css.erau.edu/iface/bullet.gif);
+};
+li.noBullet,ul li.noBullet { list-style: url(http://css.erau.edu/iface/bullet.gif);
+};

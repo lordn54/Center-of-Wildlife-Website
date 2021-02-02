@@ -1,0 +1,108 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Allen Newman">
+   <meta name="GENERATOR" content="Mozilla/4.7 [en] (WinNT; I) [Netscape]">
+   <title>International Center for Avaition and Risk Mitigation Web Site Registration</title>
+</head>
+<script>
+function init() {
+
+	document.Register.name.focus()
+}
+
+function resetForm() {
+
+	document.Register.reset()
+        init()
+}
+
+function validateInput() {
+
+	var text = "The following entries are incomplete and/or incorrect: \n\n"
+	var status = "OK"
+	
+	var name = document.Register.name.value
+	
+	var org = document.Register.organization.value
+
+	var email = document.Register.email.value
+
+	var ok = "1234567890qwertyuiop[]asdfghjklzxcvbnm.@-_QWERTYUIOPASDFGHJKLZXCVBNM"
+
+	if (name == "") {
+		text = text + "    Your Name is required.\n"
+		status = "NG"
+	}
+
+	if (email == "") {
+		text = text + "    Your EMail Address is required.\n"
+		status = "NG"
+	}
+	else {
+		for(i=0; i < email.length;i++){
+			if(ok.indexOf(email.charAt(i))<0){ 
+                                text = text + "    Invalid Character '" + email.charAt(i) + "' in E-Mail Address.\n"
+//				text = text + "    Invalid Character in email Address - " + email.charAt(i) + "\n"
+				status = "NG"
+				break		
+			}       
+		}
+                var first = email.indexOf("@", 1)
+                var last = email.lastIndexOf("@")
+                var mlength = email.length
+                if (first != last || first == -1 || first == mlength - 1 || email.substring(0, 1) == "@") {
+                        text = text + "    Missing or improper placement of '@' within email Address. \n"
+                        status = "NG"
+                }
+
+	}
+
+	if (status == "NG") {
+		text = text + "\nPlease Correct and Resubmit"
+		alert(text)
+		return false
+	
+	}
+
+	return true
+		
+//	reply = confirm('Are you sure you wish to submit this Registration now?\n\nClick "OK" to Submit Form.\nClick "Cancel" to return to Form.')
+		
+//	return reply
+
+}
+</script>
+<!----
+<body bgcolor=#4259BD">
+---->
+<body onLoad="init()" bgcolor="#4242AD">
+<form name="Register" method="post" action="mailingListReq.php" onSubmit="return validateInput()">
+<center><table BORDER=0 CELLPADDING=3 >
+<tr>
+<td><b><font face="Arial,Helvetica" color="#FFFFFF"><font size=-1>To Register With Us, Please Provide 
+Your:</font></font></b></td>
+</tr>
+
+<tr>
+<td>
+<font face="Arial,Helvetica"><font size=-1 color="#FFFFFF">Name&nbsp;</font></font><input type="text" name="name" size=20 maxlength=30></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica" color="#FFFFFF"><font size=-1>Organization (Optional)&nbsp;</font></font><input type="text" name="organization" size=20 maxlength=35></td>
+</tr>
+
+<tr>
+<td><font face="Arial,Helvetica" color="#FFFFFF"><font size=-1>E-Mail&nbsp;</font></font><input type="text" name="email" onBlur="this.value=this.value.toLowerCase()" size=25 maxlength=50></td>
+</tr>
+
+<tr>
+<td><CENTER><BR><B><FONT face="Arial,Helvetica" size=-1 color="#FFFFFF"><INPUT type="submit" value="Submit Registration"></B> <INPUT type="button" value="Clear Form" onClick="resetForm()">
+</TD>
+</TR>
+</table>
+</form></center>
+</body>
+</html>
